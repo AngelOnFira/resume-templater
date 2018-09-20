@@ -1,0 +1,1 @@
+docker run -v "$(pwd)":/home/ csr:latest

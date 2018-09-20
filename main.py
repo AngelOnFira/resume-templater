@@ -1,7 +1,5 @@
 import os
 
-
-
 resumes = [
     "SECURITY",
     "GAMEDEV",

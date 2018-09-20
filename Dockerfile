@@ -1,8 +1,6 @@
 FROM alpine:3.8
 MAINTAINER Forest Anderson
 
-COPY ./ ./
+RUN apk add --no-cache texlive-xetex biber python2
 
-RUN ls
-
-RUN apk add --no-cache texlive-xetex biber
+ENTRYPOINT [ "/home/main.py" ]
