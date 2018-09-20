@@ -13,7 +13,11 @@
 
 \documentclass[]{deedy-resume-openfont}
 
+\usepackage{silence}
+
 \begin{document}
+
+\vspace*{10pt}
 
 ~PERSONAL_INFO
 \namesection{}{Forest Anderson}{ \urlstyle{same}\url{https://forest-anderson.ca} \\

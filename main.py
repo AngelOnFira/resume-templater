@@ -1,3 +1,13 @@
+import os
+
+
+
+resumes = [
+    "SECURITY",
+    "GAMEDEV",
+    "BACKEND"
+]
+
 with open('content.txt') as f:
     lines = f.read().splitlines()
 
@@ -35,9 +45,19 @@ def createResume(resumeType):
     for section in resumeLayout:
         finalOutput += contentDict[section]
 
-    with open(resumeType + ".tex", 'w') as the_file:
+    with open("tex/" + resumeType + ".tex", 'w') as the_file:
         the_file.write(finalOutput)
 
-createResume("BACKEND")
-createResume("GAMEDEV")
-createResume("SECURITY")
+    os.system("cd tex; xelatex %s.tex" % resumeType)
+
+    if not os.path.exists("tex/" + resumeType):
+        os.makedirs("tex/" + resumeType)
+
+    # Move all the output files to a folder
+    os.rename("tex/" + resumeType + ".pdf", "tex/" + resumeType + "/" + resumeType + ".pdf")
+    os.rename("tex/" + resumeType + ".aux", "tex/" + resumeType + "/" + resumeType + ".aux")
+    os.rename("tex/" + resumeType + ".log", "tex/" + resumeType + "/" + resumeType + ".log")
+    os.rename("tex/" + resumeType + ".out", "tex/" + resumeType + "/" + resumeType + ".out")
+
+for resume in resumes:
+    createResume(resume)

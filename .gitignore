@@ -1,0 +1,6 @@
+tex/*.tex
+tex/*/
+
+!tex/fonts/
+
+.vs/
