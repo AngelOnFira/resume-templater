@@ -6,7 +6,7 @@ resumes = [
     "BACKEND"
 ]
 
-with open('content.txt') as f:
+with open('../content.txt') as f:
     lines = f.read().splitlines()
 
 currentSection = ""
@@ -43,19 +43,19 @@ def createResume(resumeType):
     for section in resumeLayout:
         finalOutput += contentDict[section]
 
-    with open("tex/" + resumeType + ".tex", 'w') as the_file:
+    with open("../tex/" + resumeType + ".tex", 'w') as the_file:
         the_file.write(finalOutput)
 
-    os.system("cd tex; xelatex %s.tex" % resumeType)
+    os.system("cd ../tex; xelatex %s.tex" % resumeType)
 
-    if not os.path.exists("tex/" + resumeType):
-        os.makedirs("tex/" + resumeType)
+    if not os.path.exists("../output/" + resumeType):
+        os.makedirs("../output/" + resumeType)
 
     # Move all the output files to a folder
-    os.rename("tex/" + resumeType + ".pdf", "tex/" + resumeType + "/" + resumeType + ".pdf")
-    os.rename("tex/" + resumeType + ".aux", "tex/" + resumeType + "/" + resumeType + ".aux")
-    os.rename("tex/" + resumeType + ".log", "tex/" + resumeType + "/" + resumeType + ".log")
-    os.rename("tex/" + resumeType + ".out", "tex/" + resumeType + "/" + resumeType + ".out")
+    os.rename("../tex/" + resumeType + ".pdf", "../output/" + resumeType + "/" + resumeType + ".pdf")
+    os.rename("../tex/" + resumeType + ".aux", "../output/" + resumeType + "/" + resumeType + ".aux")
+    os.rename("../tex/" + resumeType + ".log", "../output/" + resumeType + "/" + resumeType + ".log")
+    os.rename("../tex/" + resumeType + ".out", "../output/" + resumeType + "/" + resumeType + ".out")
 
 for resume in resumes:
     createResume(resume)

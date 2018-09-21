@@ -1,6 +1,4 @@
 tex/*.tex
-tex/*/
-
-!tex/fonts/
+output/*/
 
 .vs/

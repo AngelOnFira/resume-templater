@@ -1,6 +1,12 @@
-FROM alpine:3.8
+FROM ubuntu:bionic
 MAINTAINER Forest Anderson
 
-RUN apk add --no-cache texlive-xetex biber python2
+RUN apt-get update && \
+  apt-get install -y --no-install-recommends \
+  texlive-xetex \
+  texlive-fonts-recommended \
+  biber \
+  python2.7
 
-ENTRYPOINT [ "/home/main.py" ]
+WORKDIR /home/code/
+CMD [ "python", "main.py" ]
