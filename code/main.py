@@ -32,9 +32,9 @@ def createResume(resumeType):
         "LINKS",
         resumeType + "_EDUCATION",
         resumeType + "_SKILLS",
-        resumeType + "_VOLUNTEER",
+        "VOLUNTEER",
         "SECOND_COLUMN",
-        resumeType + "_EXPERIENCE",
+        "EXPERIENCE",
         resumeType + "_PROJECTS",
         resumeType + "_AWARDS",
     ]

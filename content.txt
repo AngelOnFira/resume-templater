@@ -116,19 +116,12 @@ C++ \textbullet{} C \textbullet{} C\# \textbullet{} Python \textbullet{} Ruby \\
 JavaScript \textbullet{} Java \textbullet{} Rust \textbullet{} Basic\\
 \sectionsep
 \subsection{Frameworks:}
-Ruby On Rails \textbullet{} Meteor \textbullet{} Flask \\
-Node.js \\
-\sectionsep
-\subsection{Security Tools:}
-Nmap \textbullet{} Burpsuite \textbullet{} SqlMap\\
-Metasploit \textbullet{} Wireshark \\
+Django \textbullet{} Meteor \textbullet{} Flask \\
+Node.js \textbullet{} Ruby On Rails \\
 \sectionsep
 \subsection{Technologies:}
-SQL \textbullet{} MongoDB \textbullet{} AWS \textbullet{} Docker\\
-Heroku \textbullet{} Jupyter \textbullet{} Jekyll \\
-\sectionsep
-\subsection{Libraries:}
-OpenCV \textbullet{} OpenGL \textbullet{} SFML \\
+Docker \textbullet{} Jenkins \textbullet{} MongoDB \\
+AWS \textbullet{} Digital Ocean \textbullet{} Heroku\\
 \sectionsep
 
 ~SECURITY_SKILLS
@@ -157,82 +150,33 @@ Heroku \textbullet{} Jupyter \textbullet{} Jekyll \\
 OpenCV \textbullet{} OpenGL \textbullet{} SFML \\
 \sectionsep
 
-~BACKEND_VOLUNTEER
+~VOLUNTEER
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     BACKEND_VOLUNTEER
+%     VOLUNTEER
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Volunteer}
-\descript{\href{http://ccss.carleton.ca/}{Carleton Computer Science Society} | 2015 - Present}
+\descript{\href{http://ccss.carleton.ca/}{Carleton Comp Sci Society}}
+\location{2015 - Present}
 \sectionsep
 \begin{tightemize}\item
 VP Academics
 \end{tightemize}
-\descript{Hack All The Things | Apr 2018 - Present}
+\sectionsep
+\descript{\href{https://h4tt.ca/}Hack All The Things}
+\location{Apr 2018 - Present}
 \begin{tightemize}\item
 Co-lead
 \end{tightemize}
 \sectionsep
-\descript{\href{http://hack.carleton.team/}{Hack.carleton} | Apr 2016 - Present}
+\descript{\href{http://hack.carleton.team/}{Hack.carleton}}
+\location{Apr 2016 - Present}
 \begin{tightemize}\item
 President
 \end{tightemize}
 \sectionsep
-\descript{\href{http://www.lamejam.com/}{Lame Jam} | Nov 2017}
-\begin{tightemize}
-\item Co-lead
-\end{tightemize}
-\sectionsep
-
-~GAMEDEV_VOLUNTEER
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     GAMEDEV_VOLUNTEER
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Volunteer}
-\descript{\href{http://ccss.carleton.ca/}{Carleton Computer Science Society} | 2015 - Present}
-\sectionsep
-\begin{tightemize}\item
-VP Academics
-\end{tightemize}
-\descript{Hack All The Things | Apr 2018 - Present}
-\begin{tightemize}\item
-Co-lead
-\end{tightemize}
-\sectionsep
-\descript{\href{http://hack.carleton.team/}{Hack.carleton} | Apr 2016 - Present}
-\begin{tightemize}\item
-President
-\end{tightemize}
-\sectionsep
-\descript{\href{http://www.lamejam.com/}{Lame Jam} | Nov 2017}
-\begin{tightemize}
-\item Co-lead
-\end{tightemize}
-\sectionsep
-
-~SECURITY_VOLUNTEER
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SECURITY_VOLUNTEER
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Volunteer}
-\descript{\href{http://ccss.carleton.ca/}{Carleton Computer Science Society} | 2015 - Present}
-\sectionsep
-\begin{tightemize}\item
-VP Academics
-\end{tightemize}
-\descript{Hack All The Things | Apr 2018 - Present}
-\begin{tightemize}\item
-Co-lead
-\end{tightemize}
-\sectionsep
-\descript{\href{http://hack.carleton.team/}{Hack.carleton} | Apr 2016 - Present}
-\begin{tightemize}\item
-President
-\end{tightemize}
-\sectionsep
-\descript{\href{http://www.lamejam.com/}{Lame Jam} | Nov 2017}
+\descript{\href{http://www.lamejam.com/}{Lame Jam}}
+\location{Nov 2017}
 \begin{tightemize}
 \item Co-lead
 \end{tightemize}
@@ -249,102 +193,22 @@ President
 \hfill
 \begin{minipage}[t]{0.66\textwidth} 
 
-~BACKEND_EXPERIENCE
+~EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     BACKEND_EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-
-\runsubsection{ScholarPro}
-\descript{| Full Stack Developer }
-\location{Dec 2017 – Feb 2018 | Ottawa, ON}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Worked on a website to match students with applicable scholarships
-\item Used the \custombold{Meteor}framework for \custombold{Node.js}to build the site
-\item Created and managed a \custombold{MongoDB}database that holds the scholarships
-\end{tightemize}
-\sectionsep
-
-\runsubsection{CHEO}
-\descript{| Research Student }
-\location{July 2017 – Aug 2017 | Ottawa, ON}
-\begin{tightemize}
-\item Worked with the Pathology lab to create cross sections of procedurally generated models of the placenta
-\item Used \custombold{C++}and \custombold{OpenGL}to create the cross sections
-\end{tightemize}
-\sectionsep
-
-\runsubsection{\href{http://gigl.scs.carleton.ca/}{GIGL}}
-\descript{| Research Student}
-\location{May 2016 – Aug 2016 | Ottawa, ON}
-\begin{tightemize}
-\item Created a pebble mosaic filter for digital photos
-\item Wrote the pipeline in \custombold{C++}, made use of \custombold{OpenCV}to manage and process the images
-\end{tightemize}
-\sectionsep
-
-~GAMEDEV_EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     GAMEDEV_EXPERIENCE
+%     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
 
-\runsubsection{ScholarPro}
-\descript{| Full Stack Developer }
-\location{Dec 2017 – Feb 2018 | Ottawa, ON}
+\runsubsection{\href{https://timsle.com}{Timsle}}
+\descript{| Backend Developer }
+\location{July 2018 – Present | Ottawa, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Worked on a website to match students with applicable scholarships
-\item Used the \custombold{Meteor}framework for \custombold{Node.js}to build the site
-\item Created and managed a \custombold{MongoDB}database that holds the scholarships
-\end{tightemize}
-\sectionsep
-
-\runsubsection{CHEO}
-\descript{| Research Student }
-\location{July 2017 – Aug 2017 | Ottawa, ON}
-\begin{tightemize}
-\item Worked with the Pathology lab to create cross sections of procedurally generated models of the placenta
-\item Used \custombold{C++}and \custombold{OpenGL}to create the cross sections
-\end{tightemize}
-\sectionsep
-
-\runsubsection{\href{http://gigl.scs.carleton.ca/}{GIGL}}
-\descript{| Research Student}
-\location{May 2016 – Aug 2016 | Ottawa, ON}
-\begin{tightemize}
-\item Created a pebble mosaic filter for digital photos
-\item Wrote the pipeline in \custombold{C++}, made use of \custombold{OpenCV}to manage and process the images
-\end{tightemize}
-\sectionsep
-
-~SECURITY_EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SECURITY_EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-
-\runsubsection{ScholarPro}
-\descript{| Full Stack Developer }
-\location{Dec 2017 – Feb 2018 | Ottawa, ON}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Worked on a website to match students with applicable scholarships
-\item Used the \custombold{Meteor}framework for \custombold{Node.js}to build the site
-\item Created and managed a \custombold{MongoDB}database that holds the scholarships
-\end{tightemize}
-\sectionsep
-
-\runsubsection{CHEO}
-\descript{| Research Student }
-\location{July 2017 – Aug 2017 | Ottawa, ON}
-\begin{tightemize}
-\item Worked with the Pathology lab to create cross sections of procedurally generated models of the placenta
-\item Used \custombold{C++}and \custombold{OpenGL}to create the cross sections
+\item Migrated the backend stack from \custombold{Heroku}to \custombold{AWS}
+\item Designed and developed a continuous integration and continuous deployment pipeline with \custombold{Jenkins}
+\item Containerized the entire platform with \custombold{Docker}to prepare for future horizontal scaling
+\item Worked with the other developers to create tools to help with their development process
 \end{tightemize}
 \sectionsep
 
