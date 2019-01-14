@@ -1,0 +1,65 @@
+~GAMEDEV_SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     GAMEDEV_SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Languages:}
+C++ \textbullet{} C \textbullet{} C\# \textbullet{} Python \\
+Java \textbullet{} Rust \textbullet{} GDScript \\
+\sectionsep
+\subsection{Engines:}
+Godot \textbullet{} Unity \textbullet{} Superpowers \\
+\sectionsep
+\subsection{Technologies:}
+MongoDB \textbullet{} AWS \textbullet{} Docker \\
+Heroku \textbullet{} Jupyter \\
+\sectionsep
+\subsection{Libraries:}
+OpenCV \textbullet{} OpenGL \textbullet{} SFML \\
+\sectionsep
+
+~BACKEND_SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     BACKEND_SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Languages:}
+C++ \textbullet{} C \textbullet{} C\# \textbullet{} Python \textbullet{} Ruby \\
+JavaScript \textbullet{} Java \textbullet{} Rust \textbullet{} Basic\\
+\sectionsep
+\subsection{Frameworks:}
+Django \textbullet{} Meteor \textbullet{} Flask \\
+Node.js \textbullet{} Ruby On Rails \\
+\sectionsep
+\subsection{Technologies:}
+Docker \textbullet{} Jenkins \textbullet{} MongoDB \\
+AWS \textbullet{} Digital Ocean \textbullet{} Heroku\\
+\sectionsep
+
+~SECURITY_SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SECURITY_SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Languages:}
+C++ \textbullet{} C \textbullet{} C\# \textbullet{} Python \textbullet{} Ruby \\
+JavaScript \textbullet{} Java \textbullet{} Rust \textbullet{} Basic\\
+\sectionsep
+\subsection{Frameworks:}
+Ruby On Rails \textbullet{} Meteor \textbullet{} Flask \\
+Node.js \\
+\sectionsep
+\subsection{Security Tools:}
+Nmap \textbullet{} Burpsuite \textbullet{} SqlMap\\
+Metasploit \textbullet{} Wireshark \\
+\sectionsep
+\subsection{Technologies:}
+SQL \textbullet{} MongoDB \textbullet{} AWS \textbullet{} Docker\\
+Heroku \textbullet{} Jupyter \textbullet{} Jekyll \\
+\sectionsep
+\subsection{Libraries:}
+OpenCV \textbullet{} OpenGL \textbullet{} SFML \\
+\sectionsep

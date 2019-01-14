@@ -1,0 +1,11 @@
+EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Carleton University}
+\descript{BCS in Computer Science}
+\location{Expected December 2019}
+\sectionsep

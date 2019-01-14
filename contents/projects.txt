@@ -1,0 +1,101 @@
+~BACKEND_PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     BACKEND_PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{\href{https://github.com/AngelOnFira/Miracle-Merchant-AI}{Miracle Merchant AI}}
+\location{Jan 2018 - April 2018}
+\begin{tightemize}
+\item An AI created for the mobile game "Miracle Merchant"
+\item Created in \custombold{Python}with data visualization done using \custombold{Plotly}and \custombold{Jupyter Notebook}
+\item Of ~5000 tests, the median score was better than most experienced players, and seven tests resulted in scores higher than the global high score
+\item \href{https://github.com/AngelOnFira/Miracle-Merchant-AI/blob/master/Miracle_Merchant.pdf}{Wrote a paper to detail my process and results}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/CUHacking/CUHackingApp}{CUHacking App}}
+\location{Sept 2017 - Dec 2017}
+\begin{tightemize}
+\item An app created for use at Carleton’s Hackathon
+\item Helps participants navigate around the university as well as stay in contact with the organizers
+\item Created and managed the database, which was built with \custombold{Ruby on Rails.} The database is stored on \custombold{Heroku}
+\item Worked as the backend developer on a four-person team
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/AngelOnFira/course-selection}{Course Selection Tool}}
+\location{April 2017 - Present}
+\begin{tightemize}
+\item A tool for students to create timetables for their courses at Carleton University.
+\item The website backend is built with \custombold{Flask,} and the course web scraper is built using \custombold{Ruby.}The courses are stored in a \custombold{MongoDB}database. The site is hosted on \custombold{AWS.}
+\end{tightemize}
+\sectionsep
+
+~GAMEDEV_PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     GAMEDEV_PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{\href{https://github.com/AngelOnFira/Miracle-Merchant-AI}{Miracle Merchant AI}}
+\location{Jan 2018 - April 2018}
+\begin{tightemize}
+\item An AI created for the mobile game "Miracle Merchant"
+\item Created in \custombold{Python}with data visualization done using \custombold{Plotly}and \custombold{Jupyter Notebook}
+\item Of ~5000 tests, the median score was better than most experienced players, and seven tests resulted in scores higher than the global high score
+\item \href{https://github.com/AngelOnFira/Miracle-Merchant-AI/blob/master/Miracle_Merchant.pdf}{Wrote a paper to detail my process and results}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/CUHacking/CUHackingApp}{CUHacking App}}
+\location{Sept 2017 - Dec 2017}
+\begin{tightemize}
+\item An app created for use at Carleton’s Hackathon
+\item Helps participants navigate around the university as well as stay in contact with the organizers
+\item Created and managed the database, which was built with \custombold{Ruby on Rails.} The database is stored on \custombold{Heroku}
+\item Worked as the backend developer on a four-person team
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/AngelOnFira/course-selection}{Course Selection Tool}}
+\location{April 2017 - Present}
+\begin{tightemize}
+\item A tool for students to create timetables for their courses at Carleton University.
+\item The website backend is built with \custombold{Flask,} and the course web scraper is built using \custombold{Ruby.}The courses are stored in a \custombold{MongoDB}database. The site is hosted on \custombold{AWS.}
+\end{tightemize}
+\sectionsep
+
+~SECURITY_PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SECURITY_PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{\href{https://github.com/AngelOnFira/Miracle-Merchant-AI}{Miracle Merchant AI}}
+\location{Jan 2018 - April 2018}
+\begin{tightemize}
+\item An AI created for the mobile game "Miracle Merchant"
+\item Created in \custombold{Python}with data visualization done using \custombold{Plotly}and \custombold{Jupyter Notebook}
+\item Of ~5000 tests, the median score was better than most experienced players, and seven tests resulted in scores higher than the global high score
+\item \href{https://github.com/AngelOnFira/Miracle-Merchant-AI/blob/master/Miracle_Merchant.pdf}{Wrote a paper to detail my process and results}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/CUHacking/CUHackingApp}{CUHacking App}}
+\location{Sept 2017 - Dec 2017}
+\begin{tightemize}
+\item An app created for use at Carleton’s Hackathon
+\item Helps participants navigate around the university as well as stay in contact with the organizers
+\item Created and managed the database, which was built with \custombold{Ruby on Rails.} The database is stored on \custombold{Heroku}
+\item Worked as the backend developer on a four-person team
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\href{https://github.com/AngelOnFira/course-selection}{Course Selection Tool}}
+\location{April 2017 - Present}
+\begin{tightemize}
+\item A tool for students to create timetables for their courses at Carleton University.
+\item The website backend is built with \custombold{Flask,} and the course web scraper is built using \custombold{Ruby.}The courses are stored in a \custombold{MongoDB}database. The site is hosted on \custombold{AWS.}
+\end{tightemize}
+\sectionsep
