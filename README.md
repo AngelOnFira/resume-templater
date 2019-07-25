@@ -38,6 +38,12 @@ Content files hold information on a specific item in a section. You can edit con
 Docker is recommended as installing the libraries right onto your system will take ~3gb
 
 1. Make sure you have [Docker](https://docs.docker.com/install/) installed.
-2. Clone the repo
-`git clone https://github.com/AngelOnFira/resume-templater.git`
 2. Run `docker run -v "$(pwd)":/app/ -it angelonfira/computer-science-resume`
+
+### FAQ
+
+#### I'm getting errors about "\\"
+
+In the YAML files, escape all backslashes with "\\\\" For example:
+
+` - "Github:// \\href{https://github.com/angelonfira}{\\custombold{AngelOnFira}} \\\\"`
