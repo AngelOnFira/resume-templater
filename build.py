@@ -11,11 +11,11 @@ def render_resume(name):
     data = {}
     
     # Load the base resume yaml
-    with open("contents/" + name + ".yaml", 'r') as stream:
+    with open("content/" + name + ".yaml", 'r') as stream:
         data = yaml.safe_load(stream)
 
     # Load each yaml incase it's needed
-    for file in glob.glob("contents/**/*.yaml"):
+    for file in glob.glob("content/**/*.yaml"):
         location = file.split("/")
         category = location[1]
 

@@ -17,4 +17,4 @@ RUN pip install pipenv; \
 
 # USER app
 
-CMD [ "pipenv", "run", "python", "main.py" ]
+CMD [ "pipenv", "run", "python", "build.py" ]
