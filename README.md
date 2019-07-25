@@ -38,7 +38,7 @@ Content files hold information on a specific item in a section. You can edit con
 Docker is recommended as installing the libraries right onto your system will take ~3gb
 
 1. Make sure you have [Docker](https://docs.docker.com/install/) installed.
-2. Run `docker run -v "$(pwd)":/app/ -it angelonfira/computer-science-resume`
+2. Run `docker run -v "$(pwd)":/app/ -it angelonfira/resume-templater`
 
 ### FAQ
 
