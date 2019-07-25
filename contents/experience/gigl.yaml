@@ -1,0 +1,7 @@
+title: "GIGL"
+link: "http://gigl.scs.carleton.ca/"
+role: "Research Student"
+location: "May 2016 – Aug 2016 | Ottawa, ON"
+description:
+ - "Created a pebble mosaic filter for digital photos"
+ - "Wrote the pipeline in \\\custombold{C++}, made use of \\custombold{OpenCV}to manage and process the images"

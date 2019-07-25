@@ -1,0 +1,5 @@
+title: "\\href{https://github.com/AngelOnFira/course-selection}{Course Selection Tool}"
+date: "April 2017 - Present"
+description:
+ - "A tool for students to create timetables for their courses at Carleton University."
+ - "The website backend is built with \\custombold{Flask,} and the course web scraper is built using \\custombold{Ruby.}The courses are stored in a \\custombold{MongoDB}database. The site is hosted on \\custombold{AWS.}"

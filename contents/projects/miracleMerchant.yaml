@@ -1,0 +1,7 @@
+title: "\\href{https://github.com/AngelOnFira/Miracle-Merchant-AI}{Miracle Merchant AI}"
+date: "Jan 2018 - April 2018"
+description:
+ - "An AI created for the mobile game 'Miracle Merchant'"
+ - "Created in \\custombold{Python}with data visualization done using \\custombold{Plotly}and \\custombold{Jupyter Notebook}"
+ - "Of ~5000 tests, the median score was better than most experienced players, and seven tests resulted in scores higher than the global high score"
+ - "\\href{https://github.com/AngelOnFira/Miracle-Merchant-AI/blob/master/Miracle_Merchant.pdf}{Wrote a paper to detail my process and results}"

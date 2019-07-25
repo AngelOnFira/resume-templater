@@ -1,8 +1,0 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Github:// \href{https://github.com/angelonfira}{\custombold{AngelOnFira}} \\
-LinkedIn://  \href{https://www.linkedin.com/in/forest-anderson}{\custombold{forest-anderson}}
-\sectionsep
