@@ -1,1 +1,1 @@
-docker run -v "$(pwd)":/home/ -it csr:latest
+docker run -v "$(pwd)":/app/ -it angelonfira/computer-science-resume:latest

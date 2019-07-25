@@ -1,0 +1,9 @@
+title: "Timsle"
+link: "https://timsle.com"
+role: "Backend Developer"
+location: "July 2018 – Present | Ottawa, ON"
+description:
+  - "Migrated the backend stack from \\custombold{Heroku}to \\custombold{AWS}"
+  - "Designed and developed a continuous integration and continuous deployment pipeline with \\custombold{Jenkins}"
+  - "Containerized the entire platform with \\custombold{Docker}to prepare for future horizontal scaling"
+  - "Worked with the other developers to create tools to help with their development process"
