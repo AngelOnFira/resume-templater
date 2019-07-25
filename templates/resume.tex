@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+\usepackage{silence}
+
+\begin{document}
+
+\vspace*{10pt}
+
+\namesection{}{((( data.name )))}{ \urlstyle{same}\url{((( data.url )))} \\
+\href{mailto:((( data.email )))}{((( data.email)))} | ((( data.phone )))}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+\section{Education}
+
+((( data.education.carleton )))
+
+\section{Links}
+
+((( data.links.security )))
+
+\section{Skills}
+
+((( data.skills.backend)))
+
+\section{Volunteer}
+
+((( data.volunteer.ccss )))
+((( data.volunteer.h4tt )))
+((( data.volunteer.hackCarleton )))
+((( data.volunteer.lameJam )))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+((( data.experience.timsle )))
+((( data.experience.gigl )))
+
+\section{Projects}
+
+((( data.projects.miracleMerchant )))
+((( data.projects.CUHackingApp )))
+
+\section{Competitions}
+
+((( data.awards.security )))
+
+\end{minipage}
+\end{document}
