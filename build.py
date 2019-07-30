@@ -46,6 +46,10 @@ if __name__ == "__main__":
         render_resume(foldername)
 
         # Render the Xetex template
+        os.system("test -e content/publications/publications.bib && cp content/publications/publications.bib tex/")
+        os.system("cd tex; xelatex %s" % filename)
+        os.system("cd tex; bibtex %s" % foldername)
+        os.system("cd tex; xelatex %s" % filename)
         os.system("cd tex; xelatex %s" % filename)
 
         # Create an output folder for this file
@@ -55,6 +59,9 @@ if __name__ == "__main__":
         # Move all the output files to a folder
         os.rename("tex/" + foldername + ".tex", "output/" + foldername + "/" + foldername + ".tex")
         os.rename("tex/" + foldername + ".pdf", "output/" + foldername + "/" + foldername + ".pdf")
-        os.rename("tex/" + foldername + ".aux", "output/" + foldername + "/" + foldername + ".aux")
         os.rename("tex/" + foldername + ".log", "output/" + foldername + "/" + foldername + ".log")
         os.rename("tex/" + foldername + ".out", "output/" + foldername + "/" + foldername + ".out")
+        os.system("rm tex/" + foldername + ".bbl")
+        os.system("rm tex/" + foldername + ".blg")
+        os.system("rm tex/" + foldername + ".aux")
+        os.system("rm tex/publications.bib")

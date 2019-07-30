@@ -4,5 +4,6 @@ role: "Research Student"
 location: "May 2016 – Aug 2016 | Ottawa, ON"
 description:
  - "Created a pebble mosaic filter for digital photos"
- - "Wrote the pipeline in \\custombold{C++}, made use of \\custombold{OpenCV}to manage and process the images"
- - "Co-authored a paper on the topic titled 'Automated pebble mosaic stylization of images'"
+ - "Wrote the pipeline in \\custombold{C++,}used \\custombold{OpenCV}to manage and process the images"
+ - "Used simple linear iterative clustering to segment the image and phong lighting to display the pebbles"
+ - "Co-authored a paper titled 'Automated pebble mosaic stylization of images'"

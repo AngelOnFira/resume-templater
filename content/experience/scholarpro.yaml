@@ -1,0 +1,8 @@
+title: "Scholarpro"
+url: "https://scholarpro.ca"
+role: "Contract Developer"
+location: "May 2019 | Ottawa, ON"
+description:
+  - "Created \\custombold{Docker}images for the production web servers and database"
+  - "Deployed the server stack on \\custombold{AWS Fargate}and set up daily database backups"
+  - "Set up \\custombold{CircleCI}for continuous delivery, and \\custombold{Sentry}for error tracking"

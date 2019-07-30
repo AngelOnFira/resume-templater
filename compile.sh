@@ -1,1 +1,1 @@
-docker run -v "$(pwd)":/app/ -it angelonfira/computer-science-resume:latest
+docker run -v "$(pwd)":/app/ -it angelonfira/resume-templater:latest

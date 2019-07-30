@@ -12,8 +12,6 @@
 
 \documentclass[]{deedy-resume-openfont}
 
-\usepackage{silence}
-
 \begin{document}
 
 \vspace*{10pt}
@@ -39,7 +37,9 @@
 
 \section{Skills}
 
-((( data.skills.backend)))
+((( data.skills.backendLanguages )))
+((( data.skills.backendTechnologies )))
+((( data.skills.backendFrameworks )))
 
 \section{Volunteer}
 
@@ -47,6 +47,7 @@
 ((( data.volunteer.h4tt )))
 ((( data.volunteer.hackCarleton )))
 ((( data.volunteer.lameJam )))
+((( data.volunteer.devClub )))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -65,16 +66,27 @@
 \section{Experience}
 
 ((( data.experience.timsle )))
+((( data.experience.scholarpro )))
 ((( data.experience.gigl )))
 
 \section{Projects}
 
-((( data.projects.miracleMerchant )))
-((( data.projects.CUHackingApp )))
+((( data.projects.veloren )))
+((( data.projects.resumeTemplater )))
 
 \section{Competitions}
 
 ((( data.awards.security )))
 
-\end{minipage}
-\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications} 
+\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}

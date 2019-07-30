@@ -46,4 +46,4 @@ Docker is recommended as installing the libraries right onto your system will ta
 
 In the YAML files, escape all backslashes with "\\\\" For example:
 
-` - "Github:// \\href{https://github.com/angelonfira}{\\custombold{AngelOnFira}} \\\\"`
+` - "Github:// \\href{https://github.com/angelonfira}{\\custombold{AngelOnFira}}\\\\"`

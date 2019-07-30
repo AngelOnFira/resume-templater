@@ -1,0 +1,7 @@
+title: "Resume Templater"
+link: "https://github.com/AngelOnFira/resume-templater"
+date: "July 2019"
+description:
+ - "A tool that creates versions of resumes for different positions"
+ - "Uses the \\custombold{Jinja}library to template .tex files in the Deedy resume format"
+ - "Created a \\custombold{Docker}image for easy usage without installing multiple libraries"

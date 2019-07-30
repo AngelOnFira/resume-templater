@@ -1,20 +1,24 @@
-FROM python:3.7-alpine
+FROM python:3.7.4-slim
 
 COPY ./Pipfile /app/Pipfile
 COPY ./Pipfile.lock /app/Pipfile.lock
 
-WORKDIR /app/
+WORKDIR /var/local
 
-RUN apk add texlive-full
-RUN apk add biber
+ENV PATH="${PATH}:/root/bin"
+
+# This section comes from a post on stackexchange
+# https://tex.stackexchange.com/questions/493664/minimal-installation-of-pdflatex-and-xelatex-on-alpine-docker
+RUN apt-get update && apt-get install -y perl wget libfontconfig1 && \
+    wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh  && \
+    apt-get clean; \
+    tlmgr install xetex bibtex; \
+    fmtutil-sys --all; \
+    tlmgr install geometry hyperref silence parskip cite xcolor fontspec textpos isodate titlesec ms substr
+
+WORKDIR /app/
 
 RUN pip install pipenv; \
     pipenv install
-    #addgroup -S -g 1001 app; \
-    #adduser -S -D -h /app -u 1001 -G app app
-
-# RUN chown -R app.app /app/
-
-# USER app
 
 CMD [ "pipenv", "run", "python", "build.py" ]

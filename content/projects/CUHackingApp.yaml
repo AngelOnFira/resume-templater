@@ -4,5 +4,5 @@ date: "Sept 2017 - Dec 2017"
 description:
  - "An app created for use at Carleton’s Hackathon"
  - "Helps participants navigate around the university as well as stay in contact with the organizers"
- - "Created and managed the database, which was built with \\custombold{Ruby on Rails.} The database is stored on \\custombold{Heroku}"
+ - "Created and managed the database, which was built with \\custombold{Ruby on Rails.}The database is stored on \\custombold{Heroku}"
  - "Worked as the backend developer on a four-person team"
