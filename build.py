@@ -1,5 +1,5 @@
 import yaml
-from jinja2 import Environment, select_autoescape, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader
 from jinjatex import Jinjatex
 import glob, os
 
