@@ -9,7 +9,7 @@ ENV PATH="${PATH}:/root/bin"
 
 # This section comes from a post on stackexchange
 # https://tex.stackexchange.com/questions/493664/minimal-installation-of-pdflatex-and-xelatex-on-alpine-docker
-RUN apt-get update && apt-get install -y perl wget libfontconfig1 && \
+RUN apt-get update && apt-get install -y --no-install-recommends perl wget libfontconfig1 && \
     wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh  && \
     apt-get clean; \
     tlmgr install xetex bibtex; \
