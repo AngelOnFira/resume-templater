@@ -1,5 +1,5 @@
 import yaml
-from jinja2 import Environment, select_autoescape, FileSystemLoader
+from jinja2 import FileSystemLoader
 from jinjatex import Jinjatex
 import glob, os
 
@@ -8,9 +8,8 @@ tex = Jinjatex(
 )
 
 def render_resume(name):
-    data = {}
-    
     # Load the base resume yaml
+    data = {}
     with open("content/" + name + ".yaml", 'r') as stream:
         data = yaml.safe_load(stream)
 

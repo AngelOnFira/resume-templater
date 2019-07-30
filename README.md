@@ -17,7 +17,7 @@ Edit resume files at `templates/` to change the content of the resume. In a resu
 
 For example, I'll lay out my volunteer section by adding the ccss, h4tt, hackCarleton and lameJam items:
 
-```
+```tex
 \section{Volunteer}
 
 ((( data.volunteer.ccss )))
