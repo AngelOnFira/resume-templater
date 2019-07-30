@@ -1,0 +1,245 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+\begin{document}
+
+\vspace*{10pt}
+
+\namesection{}{Forest Anderson}{ \urlstyle{same}\url{https://forest-anderson.ca} \\
+\href{mailto:forestkzanderson@gmail.com}{forestkzanderson@gmail.com} | +1 (613) 699-1031}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+\section{Education}
+
+\subsection{Carleton University}
+\descript{BCS in Computer Science}
+\location{Expected December 2021}
+\sectionsep
+
+\section{Links}
+
+\sectionsep
+
+Github:// \href{https://github.com/AngelOnFira}{\custombold{AngelOnFira}}\\
+
+Gitlab:// \href{https://gitlab.com/AngelOnFira}{\custombold{AngelOnFira}}\\
+
+LinkedIn://  \href{https://www.linkedin.com/in/forest-anderson}{\custombold{forest-anderson}}
+
+\sectionsep
+
+\section{Skills}
+
+\subsection{Languages:}
+\sectionsep
+
+C++ \textbullet{} C \textbullet{} C\# \textbullet{} Python\\
+
+JavaScript \textbullet{} Java \textbullet{} Rust\\
+
+\sectionsep
+\subsection{Technologies:}
+\sectionsep
+
+Docker \textbullet{} Burp Suite \textbullet{} Wireshark\\
+
+AWS \textbullet{} Digital Ocean \textbullet{} Heroku\\
+
+Jenkins \textbullet{} CircleCI \textbullet{} GitlabCI\\
+
+AWS ECS \textbullet{} AWS EC2 \textbullet{} AWS VPC\\
+
+\sectionsep
+\subsection{Frameworks:}
+\sectionsep
+
+Django \textbullet{} Node.js \textbullet{} Flask \\
+
+\sectionsep
+
+\section{Volunteer}
+
+\descript{\href{http://ccss.carleton.ca/}{Carleton Comp Sci Society}}
+\location{Sept 2015 - May 2019}
+\begin{tightemize}
+
+\item VP Academics
+
+\item Treasurer
+
+\item VP Social
+
+\item First Year Rep
+
+\end{tightemize}
+\descript{\href{https://h4tt.ca/}{Hack All The Things}}
+\location{Apr 2018 - Present}
+\begin{tightemize}
+
+\item Co-lead
+
+\end{tightemize}
+\descript{\href{http://hack.carleton.team/}{Hack.carleton}}
+\location{Apr 2016 - Present}
+\begin{tightemize}
+
+\item President
+
+\end{tightemize}
+\descript{\href{http://www.lamejam.com/}{Lame Jam}}
+\location{Nov 2017}
+\begin{tightemize}
+
+\item Co-lead
+
+\end{tightemize}
+\descript{\href{https://carleton-dev-club.github.io/}{Carleton .devclub()}}
+\location{Jan 2019 - Present}
+\begin{tightemize}
+
+\item Co-lead
+
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{\href{https://timsle.com}{Timsle}}
+\descript{| Backend Developer }
+\location{July 2018 – Present | Ottawa, ON}
+\begin{tightemize}
+
+\item Migrated the backend stack from \custombold{Heroku}to \custombold{AWS Fargate}
+
+\item Designed and developed a \custombold{CI/CD} pipeline with \custombold{Jenkins}
+
+\item Created \custombold{Docker}images for development and production web servers
+
+\item Created a command line tool that brings up a local development environment
+
+\end{tightemize}
+\sectionsep
+\runsubsection{\href{https://scholarpro.ca}{Scholarpro}}
+\descript{| Contract Developer }
+\location{May 2019 | Ottawa, ON}
+\begin{tightemize}
+
+\item Created \custombold{Docker}images for the production web servers and database
+
+\item Deployed the server stack on \custombold{AWS Fargate}and set up daily database backups
+
+\item Set up \custombold{CircleCI}for continuous delivery, and \custombold{Sentry}for error tracking
+
+\end{tightemize}
+\sectionsep
+\runsubsection{\href{http://gigl.scs.carleton.ca/}{Graphics Images and Games Lab}}
+\descript{| Research Student }
+\location{May 2016 – Aug 2016 | Ottawa, ON}
+\begin{tightemize}
+
+\item Created a pebble mosaic filter for digital photos
+
+\item Wrote the pipeline in \custombold{C++,}used \custombold{OpenCV}to manage and process the images
+
+\item Used simple linear iterative clustering to segment the image and phong lighting to display the pebbles
+
+\item Co-authored a paper titled 'Automated pebble mosaic stylization of images'
+
+\end{tightemize}
+\sectionsep
+
+\section{Projects}
+
+\runsubsection{\href{}{Veloren}}
+\location{Jan 2019 - Present}
+\begin{tightemize}
+
+\item An open source game built in \custombold{Rust}from scratch
+
+\item Re-designed \custombold{Gitlab Continuous Integration}system to use \custombold{Docker}images to optimize \custombold{Rust}builds
+
+\item Wrote a weekly blog detailing the recent technical advancements
+
+\item Planed and hosted periodic meetings with the core team to discuss development progress and analyze milestone progress
+
+\end{tightemize}
+\sectionsep
+\runsubsection{\href{}{Resume Templater}}
+\location{July 2019}
+\begin{tightemize}
+
+\item A tool that creates versions of resumes for different positions
+
+\item Uses the \custombold{Jinja}library to template .tex files in the Deedy resume format
+
+\item Created a \custombold{Docker}image for easy usage without installing multiple libraries
+
+\end{tightemize}
+\sectionsep
+
+\section{Competitions}
+
+\begin{tabular}{rll}
+
+2019      & 5th & iHack 2019\\
+
+2019      & Top 50\% & NSec CTF 2019\\
+
+2019      & 5th & CS Games Security Challenge\\
+
+2018      & 10th & Bsides Ottawa\\
+
+2018	     & 3rd & GeekSeek V CTF\\
+
+2018	     & 2nd & Hack All The Things 2.0\\
+
+2018	     & 2nd & OWASP CTF\\
+
+2017	     & 1st & Hack All The Things 1.0\\
+
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications} 
+\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
