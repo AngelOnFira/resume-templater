@@ -2,7 +2,6 @@ title: "Veloren"
 link: "https://gitlab.com/veloren/veloren"
 date: "Jan 2019 - Present"
 description:
- - "An open source game built in \\custombold{Rust}from scratch"
- - "Re-designed \\custombold{Gitlab Continuous Integration}system to use \\custombold{Docker}images to optimize \\custombold{Rust}builds"
+ - "Re-designed \\custombold{Gitlab CI}system to use \\custombold{Docker}images to optimize \\custombold{Rust}builds"
  - "Wrote a weekly blog detailing the recent technical advancements"
  - "Planed and hosted periodic meetings with the core team to discuss development progress and analyze milestone progress"

@@ -6,4 +6,3 @@ description:
  - "Created a pebble mosaic filter for digital photos"
  - "Wrote the pipeline in \\custombold{C++,}used \\custombold{OpenCV}to manage and process the images"
  - "Used simple linear iterative clustering to segment the image and phong lighting to display the pebbles"
- - "Co-authored a paper titled 'Automated pebble mosaic stylization of images'"
