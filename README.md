@@ -11,7 +11,7 @@ This is a resume templating system for people who have multiple types of compute
 
 #### Resume files
 
-Edit resume files at `templates/` to change the content of the resume. In a resume file, templated items can be accessed with 
+Edit resume files at `templates/` to change the content of the resume. In a resume file, templated items can be accessed with
 
 `((( data.<section-name>.<item-name> )))`
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.7.30)  17 AUG 2019 18:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.17)  10 JUL 2020 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -234,17 +234,17 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 (/root/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/root/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/root/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-07-25 L3 programming layer (loader) 
+Package: expl3 2019-08-14 L3 programming layer (loader) 
 
 (/root/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-07-25 L3 programming layer (code)
+Package: expl3 2019-08-14 L3 programming layer (code)
 \c_max_int=\count114
 \l_tmpa_int=\count115
 \l_tmpb_int=\count116
 \g_tmpa_int=\count117
 \g_tmpb_int=\count118
 \g__kernel_prg_map_int=\count119
-\c__ior_term_ior=\count120
+\c__ior_term_noprompt_ior=\count120
 \c_log_iow=\count121
 \l_iow_line_count_int=\count122
 \l__iow_line_target_int=\count123
@@ -788,26 +788,22 @@ Package fontspec Info: Font family 'Lato-Reg(0)' created for font 'Lato-Reg'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 182.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 194.
+Package hyperref Warning: Suppressing link with empty target on input line 183.
 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 209.
+(Font)              <7> on input line 198.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 209.
+(Font)              <5> on input line 198.
 (./backendResume.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
  [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (./backendResume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `backendResume.out' has not changed.
 (rerunfilecheck)             Checksum: 16096F75B34C92938C933DFBD58655A8.
 
@@ -818,13 +814,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 22020 strings out of 494894
- 419722 string characters out of 6177343
- 527404 words of memory out of 5000000
- 25793 multiletter control sequences out of 15000+600000
+ 22021 strings out of 494894
+ 419742 string characters out of 6177343
+ 526290 words of memory out of 5000000
+ 25794 multiletter control sequences out of 15000+600000
  534886 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,8n,118p,1202b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
