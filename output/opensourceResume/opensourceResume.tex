@@ -69,12 +69,6 @@ Github Actions \textbullet{} GitlabCI \textbullet{} Jenkins\\
 AWS ECS \textbullet{} AWS EC2 \textbullet{} AWS VPC\\
 
 \sectionsep
-\subsection{Frameworks:}
-\sectionsep
-
-Django \textbullet{} Node.js \textbullet{} Flask \\
-
-\sectionsep
 
 \section{Volunteer}
 
@@ -141,6 +135,23 @@ Django \textbullet{} Node.js \textbullet{} Flask \\
 
 \section{Experience}
 
+\runsubsection{\href{https://gitlab.com/veloren/veloren}{Veloren}}
+\descript{| Meta Lead }
+\location{Jan 2019 - Present | Remote}
+\begin{tightemize}
+
+\item Re-designed \custombold{Gitlab CI}system to use \custombold{Docker}images and optimize \custombold{Rust}builds
+
+\item Edit a weekly blog detailing the recent technical advancements
+
+\item Planned and hosted periodic meetings with contributors to discuss development progress and analyze milestone progress
+
+\item Gave a talk \href{https://www.youtube.com/watch?v=aS26sqT09Pw}{\custombold{"Cultivating A Healthy Open Source Community"}}at CUSEC 2020 about my experiences working on Veloren
+
+\item Did \href{https://www.gamingonlinux.com/2020/06/interviewed-veloren-an-upcoming-foss-multiplayer-voxel-rpg}{\custombold{an interview}}with GamingOnLinux about Veloren's development process
+
+\end{tightemize}
+\sectionsep
 \runsubsection{\href{https://timsle.com}{Timsle}}
 \descript{| Backend Developer }
 \location{July 2018 – Present | Ottawa, ON}
@@ -153,19 +164,6 @@ Django \textbullet{} Node.js \textbullet{} Flask \\
 \item Created \custombold{Docker}images for development and production web servers
 
 \item Created a command line tool that brings up a local development environment
-
-\end{tightemize}
-\sectionsep
-\runsubsection{\href{https://scholarpro.ca}{Scholarpro}}
-\descript{| Contract Developer }
-\location{May 2019 | Ottawa, ON}
-\begin{tightemize}
-
-\item Created \custombold{Docker}images for the production web servers and database
-
-\item Deployed the server stack on \custombold{AWS Fargate}and set up daily database backups
-
-\item Set up \custombold{CircleCI}for continuous delivery, and \custombold{Sentry}for error tracking
 
 \end{tightemize}
 \sectionsep
@@ -185,30 +183,30 @@ Django \textbullet{} Node.js \textbullet{} Flask \\
 
 \section{Projects}
 
-\runsubsection{\href{}{Veloren}}
-\location{Jan 2019 - Present}
+\runsubsection{\href{}{Miracle Merchant AI}}
+\location{Jan 2018 - April 2018}
 \begin{tightemize}
 
-\item Re-designed \custombold{Gitlab CI}system to use \custombold{Docker}images to optimize \custombold{Rust}builds
+\item An AI created for the mobile game 'Miracle Merchant'
 
-\item Wrote a weekly blog detailing the recent technical advancements
+\item Created in \custombold{Python}with data visualization done using \custombold{Plotly}and \custombold{Jupyter Notebook}
 
-\item Planed and hosted periodic meetings with the core team to discuss development progress and analyze milestone progress
+\item Of ~5000 tests, the median score was better than most experienced players, and seven tests resulted in scores higher than the global high score
+
+\item \href{https://github.com/AngelOnFira/Miracle-Merchant-AI/blob/master/Miracle_Merchant.pdf}{Wrote a paper to detail my process and results}
 
 \end{tightemize}
 \sectionsep
-\runsubsection{\href{}{Resume Templater}}
-\location{July 2019}
-\begin{tightemize}
 
-\item A tool that creates versions of resumes for different positions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\item Uses the \custombold{Jinja}library to template .tex files in the Deedy resume format
-
-\item Created a \custombold{Docker}image for easy usage without installing multiple libraries
-
-\end{tightemize}
-\sectionsep
+\section{Publications} 
+\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
 
 \section{Competitions}
 
@@ -234,16 +232,6 @@ Django \textbullet{} Node.js \textbullet{} Flask \\
 
 \end{tabular}
 \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}

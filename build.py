@@ -10,7 +10,7 @@ tex = Jinjatex(
 def render_resume(name):
     # Load the base resume yaml
     data = {}
-    with open("content/" + name + ".yaml", 'r') as stream:
+    with open("content/base.yaml", 'r') as stream:
         data = yaml.safe_load(stream)
 
     # Load each yaml incase it's needed

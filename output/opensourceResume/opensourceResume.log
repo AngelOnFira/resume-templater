@@ -2,8 +2,8 @@ This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**backendResume.tex
-(./backendResume.tex
+**opensourceResume.tex
+(./opensourceResume.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18> (./deedy-resume-openfont.cls
 Document Class: deedy-resume-openfont 2014/04/30 CV class
@@ -396,8 +396,8 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen161
 \titlewidthfirst=\dimen162
 ))
-(./backendResume.aux)
-\openout1 = `backendResume.aux'.
+(./opensourceResume.aux)
+\openout1 = `opensourceResume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -476,9 +476,9 @@ LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
 
-(./backendResume.out) (./backendResume.out)
+(./opensourceResume.out) (./opensourceResume.out)
 \@outlinefile=\write3
-\openout3 = `backendResume.out'.
+\openout3 = `opensourceResume.out'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -644,28 +644,24 @@ Package fontspec Info: Font family 'Lato-Reg(0)' created for font 'Lato-Reg'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 188.
+Package hyperref Warning: Suppressing link with empty target on input line 186.
 
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 200.
-
-
+(./opensourceResume.bbl)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 215.
+(Font)              <7> on input line 213.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 215.
-(./backendResume.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+(Font)              <5> on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
  [1
 
-] [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
- (./backendResume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
-Package rerunfilecheck Info: File `backendResume.out' has not changed.
-(rerunfilecheck)             Checksum: 16096F75B34C92938C933DFBD58655A8;606.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+ (./opensourceResume.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package rerunfilecheck Info: File `opensourceResume.out' has not changed.
+(rerunfilecheck)             Checksum: E208ABD0B8213634CC46C1F54E33CF21;545.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -674,15 +670,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
  ) 
 Here is how much of TeX's memory you used:
  12912 strings out of 481269
- 244578 string characters out of 5925213
- 568837 words of memory out of 5000000
+ 244632 string characters out of 5925213
+ 568780 words of memory out of 5000000
  30245 multiletter control sequences out of 15000+600000
  534942 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,8n,123p,1202b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,123p,1205b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on backendResume.pdf (2 pages).
+Output written on opensourceResume.pdf (1 page).
