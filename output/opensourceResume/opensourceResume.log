@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.7.10)  10 JUL 2020 15:16
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.7.10)  27 DEC 2021 02:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,25 +643,17 @@ Package fontspec Info: Font family 'Lato-Reg(0)' created for font 'Lato-Reg'
 
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-
-Package hyperref Warning: Suppressing link with empty target on input line 186.
-
-
 (./opensourceResume.bbl)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 213.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 213.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
  [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (./opensourceResume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `opensourceResume.out' has not changed.
-(rerunfilecheck)             Checksum: E208ABD0B8213634CC46C1F54E33CF21;545.
+(rerunfilecheck)             Checksum: F3D633C5B0C3AF46824B507CDC2EF259;593.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -670,15 +662,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 12912 strings out of 481269
- 244632 string characters out of 5925213
- 568780 words of memory out of 5000000
- 30245 multiletter control sequences out of 15000+600000
- 534942 words of font info for 83 fonts, out of 8000000 for 9000
+ 12910 strings out of 481269
+ 244516 string characters out of 5925213
+ 567848 words of memory out of 5000000
+ 30242 multiletter control sequences out of 15000+600000
+ 534950 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,8n,123p,1205b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,123p,1205b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on opensourceResume.pdf (1 page).

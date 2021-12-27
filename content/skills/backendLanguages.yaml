@@ -1,4 +1,3 @@
 title: "Languages"
 skills:
-  - "\\custombold{Primary:} Rust \\textbullet{} Python \\textbullet{} Javascript\\\\"
-  - "\\custombold{Backup:} C \\textbullet{} C++ \\textbullet{} C\\# \\textbullet{} Java\\\\"
+  - "Rust \\textbullet{} Python \\\\"

@@ -1,6 +1,5 @@
 title: "Technologies"
 skills:
  - "Docker \\textbullet{} Burp Suite \\textbullet{} Wireshark\\\\"
- - "AWS \\textbullet{} Digital Ocean \\textbullet{} Heroku\\\\"
+ - "AWS \\textbullet{} Digital Ocean \\textbullet{} Hetzner\\\\"
  - "Github Actions \\textbullet{} GitlabCI \\textbullet{} Jenkins\\\\"
- - "AWS ECS \\textbullet{} AWS EC2 \\textbullet{} AWS VPC\\\\"

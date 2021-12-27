@@ -1,0 +1,7 @@
+title: "Rusty Christmas Tree"
+url: "https://github.com/AngelOnFira/rusty-christmas-tree"
+date: "Dec 2021"
+description:
+  - "A Raspberry Pi program that controls an LED Christmas tree"
+  - "Created in \\custombold{Rust}with local visualization done using \\custombold{Nannou}"
+  - "Includes a \\custombold{Warp}backend server and a frontend UI made with \\custombold{Yew}"
