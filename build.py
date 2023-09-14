@@ -27,10 +27,14 @@ def render_resume(name):
             title = location[2].split(".")[0]
             cat_data = yaml.safe_load(stream)
 
+
         data[category][title] = tex.render_template(
             "sections/" + category + ".tex",
             data=cat_data
         )
+
+    for cat, item in data.items():
+        print(cat, item)
 
     # Render and output this resume's .tex
     with open("tex/" + name + ".tex", "w") as out:
@@ -38,6 +42,10 @@ def render_resume(name):
 
 if __name__ == "__main__":
     for filename in glob.glob("templates/*.tex"):
+        print(filename)
+        if filename != "templates/opensourceResume.tex":
+            continue
+
         filename = filename.split("/")[1]
         foldername = filename.split(".")[0]
 

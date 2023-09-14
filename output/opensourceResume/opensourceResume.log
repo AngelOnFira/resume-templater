@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.7.10)  27 DEC 2021 02:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.7.10)  14 SEP 2023 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,16 +644,20 @@ Package fontspec Info: Font family 'Lato-Reg(0)' created for font 'Lato-Reg'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 (./opensourceResume.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
- [1
+Overfull \hbox (3.0252pt too wide) in paragraph at lines 196--212
+[][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+[1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
  (./opensourceResume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 Package rerunfilecheck Info: File `opensourceResume.out' has not changed.
-(rerunfilecheck)             Checksum: F3D633C5B0C3AF46824B507CDC2EF259;593.
+(rerunfilecheck)             Checksum: A99AA0F125F48DCD00F517C7FA9F8356;586.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -662,14 +666,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
  ) 
 Here is how much of TeX's memory you used:
- 12910 strings out of 481269
- 244516 string characters out of 5925213
- 567848 words of memory out of 5000000
- 30242 multiletter control sequences out of 15000+600000
- 534950 words of font info for 84 fonts, out of 8000000 for 9000
+ 12919 strings out of 481269
+ 244807 string characters out of 5925213
+ 567841 words of memory out of 5000000
+ 30244 multiletter control sequences out of 15000+600000
+ 535006 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,8n,123p,1205b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
 

@@ -1,7 +1,7 @@
 title: "Timsle"
 url: "https://timsle.com"
 role: "Backend Developer"
-location: "July 2018 – Present | Ottawa, ON"
+location: "July 2018 – Apr 2020 | Ottawa, ON"
 description:
   - "Migrated the backend stack from \\custombold{Heroku}to \\custombold{AWS Fargate}"
   - "Designed and developed a \\custombold{CI/CD} pipeline with \\custombold{Jenkins}"

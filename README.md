@@ -57,5 +57,5 @@ take ~3gb
 
 In the YAML files, escape all backslashes with "\\\\" For example:
 
-` - "Github://
+` - "GitHub://
 \\href{https://github.com/angelonfira}{\\custombold{AngelOnFira}}\\\\"`
