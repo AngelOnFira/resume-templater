@@ -33,6 +33,17 @@
       tags: ("opensource", "gamedev", "backend"),
     ),
     (
+      title: "Awetza",
+      url: "https://www.awetza.ca/",
+      role: "Backend Developer",
+      location: "Nov 2019 – Present | Remote",
+      description: (
+        "Decided on technical stack and direction for new platform",
+        "Created several prototypes to test out different technologies",
+      ),
+      tags: ("backend", "architecture"),
+    ),
+    (
       title: "Timsle",
       url: "https://timsle.com",
       role: "Backend Developer",
@@ -75,6 +86,28 @@
         (
           content: "GitHub Actions • GitLabCI • Jenkins",
           tags: ("backend", "opensource"),
+        ),
+      ),
+    ),
+    (
+      title: "Frameworks",
+      items: (
+        (
+          content: "*Django* • *Node.js* • *Flask* • *Ruby on Rails*",
+          tags: ("backend"),
+        ),
+      ),
+    ),
+    (
+      title: "Game Development",
+      items: (
+        (
+          content: "*Unity* • *Godot* • *Superpowers*",
+          tags: ("gamedev"),
+        ),
+        (
+          content: "*OpenCV* • *OpenGL* • *SFML*",
+          tags: ("gamedev"),
         ),
       ),
     ),
@@ -167,9 +200,20 @@
       url: "https://github.com/AngelOnFira/rusty-christmas-tree",
       date: "Dec 2021",
       description: (
-        "A *Raspberry Pi* program that controls an LED Christmas tree",
-        "Created in *Rust* with local visualization done using *Nannou*",
-        "Includes a *Warp* backend server and a frontend UI made with *Yew*",
+        "A Raspberry Pi program that controls an LED Christmas tree",
+        "Created in Rust with local visualization done using Nannou",
+        "Includes a Warp backend server and a frontend UI made with Yew",
+      ),
+      tags: ("opensource", "backend"),
+    ),
+    (
+      title: "Resume Templater",
+      url: "https://github.com/AngelOnFira/resume-templater",
+      date: "July 2019",
+      description: (
+        "A tool that creates versions of resumes for different positions",
+        "Uses the Jinja library to template .tex files in the Deedy resume format",
+        "Created a Docker image for easy usage without installing multiple libraries",
       ),
       tags: ("opensource", "backend"),
     ),
@@ -202,6 +246,21 @@
     (
       text: "LinkedIn: forest-anderson",
       url: "https://www.linkedin.com/in/forest-anderson",
+      tags: ("opensource", "backend", "gamedev", "architecture"),
+    ),
+  ),
+
+  // Add achievements section
+  achievements: (
+    (
+      title: "GitHub Campus Expert",
+      date: "Fall 2021 Batch",
+      description: (
+        "1 of 80 accepted out of 8000+ applicants, and 1 of the 8 in Canada",
+        "Spoke about Codespaces in Education on the mainstage at GitHub Universe 2022",
+        "Co-lead of the 2022 Toronto GitHub Field Day",
+        "Co-hosted a stream with GitHub Education during Universe 2021",
+      ),
       tags: ("opensource", "backend", "gamedev", "architecture"),
     ),
   ),

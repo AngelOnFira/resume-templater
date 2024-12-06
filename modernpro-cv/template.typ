@@ -12,6 +12,20 @@
     })
   }
 
+  // Helper function to process bold text
+  let process-bold(text) = {
+    let parts = text.split("*")
+    let result = ()
+    for (i, part) in parts.enumerate() {
+      if calc.even(i) {
+        result = result + (part,)
+      } else {
+        result = result + ([*#part*],)
+      }
+    }
+    result.join("")
+  }
+
   // Create new content dictionary with filtered items
   (
     // Copy base info directly
@@ -26,13 +40,18 @@
     // Filter experience
     experience: filter-array(content.experience),
 
-    // Filter skills and their items
-    skills: content.skills.map(category => {
-      (
-        title: category.title,
-        items: filter-array(category.items).map(i => i.content).join(" "),
-      )
-    }),
+    // Filter skills and their items, removing empty categories
+    skills: content.skills
+      .map(category => {
+        let filtered_items = filter-array(category.items)
+          .map(i => process-bold(i.content))  // Process bold text in skills
+          .join(" ")
+        (
+          title: category.title,
+          items: filtered_items,
+        )
+      })
+      .filter(category => category.items != none),  // Remove categories with no items
 
     // Filter volunteer
     volunteer: filter-array(content.volunteer),
