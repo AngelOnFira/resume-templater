@@ -210,8 +210,11 @@
     (
       title: "Automated pebble mosaic stylization of images",
       url: "https://doi.org/10.1007/s41095-019-0129-0",
-      authors: "Lars Doyle, Forest Anderson, Ehren Choy, David Mould.",
+      authors: "L. Doyle, F. Anderson, E. Choy, D. Mould.",
       journal: "Computational Visual Media",
+      volume: "5",
+      pages: "33-44",
+      month: "March",
       year: "2019",
       tags: ("gamedev", "opensource"),
     ),

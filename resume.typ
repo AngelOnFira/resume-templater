@@ -115,7 +115,11 @@
     }
 
     #section("Publications")
-    #set bibliography(style: "chicago-author-date")
-    #bibliography("bib.bib")
+    #for pub in filtered-content.publications {
+      link(pub.url)[
+        #pub.authors *#pub.title*. #pub.journal, #pub.volume:#pub.pages, #pub.year.
+      ]
+      v(8pt)
+    }
   ],
 ) 
