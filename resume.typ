@@ -115,13 +115,7 @@
     }
 
     #section("Publications")
-    #for pub in filtered-content.publications {
-      text(weight: "bold")[#pub.title]
-      linebreak()
-      link(pub.url)[#pub.url]
-      linebreak()
-      text(style: "italic")[#pub.authors #pub.journal]
-      v(8pt)
-    }
+    #set bibliography(style: "chicago-author-date")
+    #bibliography("bib.bib")
   ],
 ) 

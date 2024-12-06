@@ -1,9 +1,10 @@
 # Include only the main resume file
-include = ["modernpro-cv/resume.typ"]
+# include = ["resume.typ"]
 
 # Exclude all other .typ files
 exclude = [
-    "modernpro-cv/content/*.typ",
-    "modernpro-cv/template.typ",
-    "modernpro-cv/modernpro-cv.typ"
+    "content/base.typ",
+    "template.typ",
+    "modernpro-cv.typ",
+    "resume.typ"
 ] 
