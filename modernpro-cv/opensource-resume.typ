@@ -18,6 +18,18 @@
   ),
 
   left: [
+    #section("Education")
+    #for edu in content.education {
+      job(
+        position: edu.degree,
+        institution: edu.school,
+        location: edu.location,
+        date: edu.date,
+        description: (), // Empty description for education
+      )
+      v(8pt)
+    }
+
     #section("Links")
     #for l in content.links {
       link(l.url)[#l.text]
@@ -41,21 +53,16 @@
       text(size: 9pt)[#vol.date]
       v(8pt)
     }
+
+    #section("Talks")
+    #for talk in content.talks {
+      descript(link(talk.url)[#talk.title])
+      text(style: "italic")[#talk.description]
+      v(8pt)
+    }
   ],
 
   right: [
-    #section("Education")
-    #for edu in content.education {
-      job(
-        position: edu.degree,
-        institution: edu.school,
-        location: edu.location,
-        date: edu.date,
-        description: (), // Empty description for education
-      )
-      v(8pt)
-    }
-
     #section("Experience")
     #for exp in content.experience {
       job(
@@ -63,7 +70,7 @@
         institution: link(exp.url)[#exp.title],
         location: exp.location,
         date: "",
-        description: exp.description.map(d => [- #d]), // Add bullet points
+        description: list(..exp.description),
       )
       v(8pt)
     }
@@ -74,32 +81,18 @@
         entry1: proj.title,
         entry2: proj.date,
         entry3: proj.url,
-        description: proj.description,
+        description: list(..proj.description),
       )
       v(8pt)
     }
 
     #section("Publications")
     #for pub in content.publications {
-      twoline-item(
-        entry1: pub.title,
-        entry2: pub.year,
-        entry3: pub.url,
-        description: (
-          pub.authors + ". " + pub.journal,
-        ),
-      )
-      v(8pt)
-    }
-
-    #section("Talks")
-    #for talk in content.talks {
-      twoline-item(
-        entry1: talk.title,
-        entry2: "",
-        entry3: talk.url,
-        description: (talk.description,),
-      )
+      text(weight: "bold")[#pub.title]
+      linebreak()
+      link(pub.url)[#pub.url]
+      linebreak()
+      text(style: "italic")[#pub.authors #pub.journal]
       v(8pt)
     }
   ],
