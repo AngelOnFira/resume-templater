@@ -1,61 +1,106 @@
 # Resume Templater
 
-![GitHub](https://img.shields.io/github/license/angelonfira/resume-templater)
-![GitHub last
-commit](https://img.shields.io/github/last-commit/angelonfira/resume-templater)
+<div align="center">
 
-This is a resume templating system for people who have multiple types of
-computer science resumes. It uses the [Deedy resume
-template](https://github.com/deedy/Deedy-Resume). For example, say you want a
-certain project visible on your backend resume, but not on your dev-ops resume.
-This also allows easy editing of generic content that is the same across all
-your resumes.
+![Typst](https://img.shields.io/badge/Made%20with-Typst-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Instructions
+A modern resume templating system built with Typst that allows you to maintain multiple resume variants from a single content source.
 
-### Editing the content
+</div>
 
-#### Resume files
+## 🌟 Features
 
-Edit resume files at `templates/` to change the content of the resume. In a
-resume file, templated items can be accessed with
+- **Single Source of Truth**: Maintain all your professional content in one place
+- **Multiple Variants**: Generate different resumes for different purposes
+- **Smart Content Filtering**: Content is automatically filtered based on tags
+- **Easy to Update**: Simple YAML-like content structure in Typst
+- **Fast Compilation**: Takes advantage of Typst's incremental compilation
 
-`((( data.<section-name>.<item-name> )))`
+## 🚀 Getting Started
 
-For example, I'll lay out my volunteer section by adding the ccss, h4tt,
-hackCarleton and lameJam items:
+### Prerequisites
 
-```tex
-\section{Volunteer}
+- [Typst](https://typst.app/)
+- [Just](https://github.com/casey/just) (for running commands)
 
-((( data.volunteer.ccss )))
-((( data.volunteer.h4tt )))
-((( data.volunteer.hackCarleton )))
-((( data.volunteer.lameJam )))
+### Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/resume-templater
+cd resume-templater
 ```
 
-#### Section templates
+2. Create your resume variants:
 
-Section templates set how a section is viewed on the resume. You can edit the
-files in `templates/sections`.
+```bash
+just build # Builds all variants
+# or
+just watch # Watches for changes and rebuilds
+```
 
-#### Content files
+Your resumes will be generated in the `output/` directory.
 
-Content files hold information on a specific item in a section. You can edit
-content files at `content/<section-name>`.
+## 📝 Usage
 
-### Rendering the resumes with Docker
-Docker is recommended as installing the libraries right onto your system will
-take ~3gb
+### Content Management
 
-1. Make sure you have [Docker](https://docs.docker.com/install/) installed.
-2. Run `docker run -v "$(pwd)":/app/ -it angelonfira/resume-templater`
+All content is stored in `modernpro-cv/content/base.typ`. Each content entry includes tags that determine which resume variants it appears in:
 
-### FAQ
+```typ
+experience: (
+    (
+        title: "Company Name",
+        role: "Position",
+        description: ("Achievement 1", "Achievement 2"),
+        // Will appear in backend and architecture variants
+        tags: ("backend", "architecture"),
+    ),
+)
+```
 
-#### I'm getting errors about "\\"
+### Available Tags
 
-In the YAML files, escape all backslashes with "\\\\" For example:
+You can change these out as needed for your own resume versions, but this repo
+uses these tags by default:
 
-` - "GitHub://
-\\href{https://github.com/angelonfira}{\\custombold{AngelOnFira}}\\\\"`
+- `opensource`: Open source contributions and community work
+- `backend`: Backend development experience
+- `gamedev`: Game development projects
+- `architecture`: System architecture and infrastructure
+- `default`: Included in all variants (no tag needed)
+
+### Building Specific Variants
+
+```bash
+typst compile modernpro-cv/resume.typ output/backend-resume.pdf --input resume=backend
+```
+
+## 📂 Project Structure
+
+```bash
+.
+├── modernpro-cv/
+│ ├── content/
+│ │ └── base.typ # All resume content
+│ ├── resume.typ # Main template
+│ ├── template.typ # Content filtering logic
+│ └── modernpro-cv.typ # CV styling
+├── output/ # Generated PDFs
+└── justfile # Build commands
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [Typst](https://typst.app/)
+- Based on the modernpro-cv template
