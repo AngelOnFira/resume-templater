@@ -2,6 +2,7 @@
 #import "@preview/fontawesome:0.5.0": *
 #import "content/opensource.typ": content
 
+
 #show: cv-double(
   font-type: "PT Sans",
   continue-header: "true",
@@ -18,8 +19,8 @@
 
   left: [
     #section("Links")
-    #for link in content.links {
-      std.link(link.url)[#link.text]
+    #for l in content.links {
+      link(l.url)[#l.text]
       linebreak()
     }
     v(8pt)
@@ -59,10 +60,10 @@
     #for exp in content.experience {
       job(
         position: exp.role,
-        institution: std.link(exp.url)[#exp.title],
+        institution: link(exp.url)[#exp.title],
         location: exp.location,
         date: "",
-        description: exp.description,
+        description: exp.description.map(d => [- #d]), // Add bullet points
       )
       v(8pt)
     }
