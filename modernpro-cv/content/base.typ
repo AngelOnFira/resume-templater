@@ -55,6 +55,30 @@
       ),
       tags: ("backend", "architecture"),
     ),
+    (
+      title: "Graphics Images and Games Lab",
+      url: "https://gigl.scs.carleton.ca/",
+      role: "Research Student",
+      location: "May 2016 – Aug 2016 | Ottawa, ON",
+      description: (
+        "Created a pebble mosaic filter for digital photos",
+        "Wrote the pipeline in *C++*, used *OpenCV* to manage and process the images",
+        "Used simple linear iterative clustering to segment the image and phong lighting to display the pebbles",
+      ),
+      tags: ("gamedev"),
+    ),
+    (
+      title: "ScholarPro",
+      url: "https://scholarpro.ca",
+      role: "Contract Developer",
+      location: "May 2019 | Ottawa, ON",
+      description: (
+        "Created *Docker* images for the production web servers and database",
+        "Deployed the server stack on *AWS Fargate* and set up daily database backups",
+        "Set up *CircleCI* for continuous delivery, and *Sentry* for error tracking",
+      ),
+      tags: ("backend", "architecture"),
+    ),
   ),
 
   // Skills section
@@ -228,6 +252,29 @@
         "Seven tests resulted in scores higher than the *global high score*",
       ),
       tags: ("gamedev", "backend"),
+    ),
+    (
+      title: "Course Selection Tool",
+      url: "https://github.com/AngelOnFira/course-selection",
+      date: "April 2017 - Present",
+      description: (
+        "A tool for students to create timetables for their courses at Carleton University",
+        "The website backend is built with *Flask*, and the course web scraper is built using *Ruby*",
+        "The courses are stored in a *MongoDB* database. The site is hosted on *AWS*",
+      ),
+      tags: ("backend"),
+    ),
+    (
+      title: "CUHacking App",
+      url: "https://github.com/CUHacking/CUHackingApp",
+      date: "Sept 2017 - Dec 2017",
+      description: (
+        "An app created for use at Carleton's Hackathon",
+        "Helps participants navigate around the university and stay in contact with organizers",
+        "Created and managed the database, built with *Ruby on Rails*. Database stored on *Heroku*",
+        "Worked as the backend developer on a four-person team",
+      ),
+      tags: ("backend"),
     ),
   ),
 
