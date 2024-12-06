@@ -106,9 +106,9 @@
     #section("Projects")
     #for proj in filtered-content.projects {
       twoline-item(
-        entry1: text(weight: "bold")[#proj.title],
+        entry1: text(weight: "bold")[#link(proj.url)[#proj.title]],
         entry2: proj.date,
-        entry3: proj.url,
+        entry3: "",
         description: list(..proj.description.map(process-bold)),
       )
       v(8pt)
