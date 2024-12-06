@@ -78,6 +78,19 @@
       v(8pt)
     }
 
+    #section("Publications")
+    #for pub in content.publications {
+      twoline-item(
+        entry1: pub.title,
+        entry2: pub.year,
+        entry3: pub.url,
+        description: (
+          pub.authors + ". " + pub.journal,
+        ),
+      )
+      v(8pt)
+    }
+
     #section("Talks")
     #for talk in content.talks {
       twoline-item(

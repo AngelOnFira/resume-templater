@@ -126,6 +126,36 @@
       url: "https://www.youtube.com/watch?v=C4ksw3Jvq4E",
       description: "Leveling Up Game Development with Rust",
     ),
-    // Add more talks...
+    (
+      title: "Rust in Arts '21",
+      url: "https://www.youtube.com/watch?v=N1f10QC5O4M",
+      description: "Director's Commentary: Veloren",
+    ),
+    (
+      title: "HashiTalks: Deploy '21",
+      url: "https://www.youtube.com/watch?v=76ckrB4W2ss",
+      description: "Nomad for Students",
+    ),
+    (
+      title: "Minidebconf '20",
+      url: "https://www.youtube.com/watch?v=76FPpOnshNw",
+      description: "Community Game Development in Rust: A Biopsy",
+    ),
+    (
+      title: "CUSEC '20",
+      url: "https://www.youtube.com/watch?v=aS26sqT09Pw",
+      description: "Cultivating A Healthy Open Source Community",
+    ),
+  ),
+
+  // Publications section
+  publications: (
+    (
+      title: "Automated pebble mosaic stylization of images",
+      authors: "Lars Doyle, Forest Anderson, Ehren Choy, David Mould",
+      journal: "Computational Visual Media",
+      year: "2019",
+      url: "https://doi.org/10.1007/s41095-019-0129-0",
+    ),
   ),
 ) 
