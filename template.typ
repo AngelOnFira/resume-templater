@@ -5,7 +5,7 @@
       if resume-type == "default" {
         true  // Include everything for default
       } else if "tags" in item {
-        item.tags.contains(resume-type)
+        item.tags.len() == 0 or item.tags.contains(resume-type)  // Include if tags is empty or contains resume-type
       } else {
         true
       }

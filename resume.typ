@@ -49,13 +49,11 @@
   left: [
     #section("Education")
     #for edu in filtered-content.education {
-      job(
-        position: edu.degree,
-        institution: edu.school,
-        location: edu.location,
-        date: edu.date,
-        description: (), // Empty description for education
-      )
+      descript(edu.degree)
+      linebreak()
+      text(style: "italic")[#edu.school]
+      linebreak()
+      text(style: "italic")[#edu.specialization]
       v(8pt)
     }
 
@@ -77,14 +75,16 @@
     #section("Volunteer")
     #for vol in filtered-content.volunteer {
       descript(vol.title)
+      linebreak()
       text(style: "italic")[#vol.description]
-      text(size: 9pt)[#vol.date]
+      h(1fr)
+      text(size: 9pt, style: "italic")[#vol.date]
       v(8pt)
     }
 
     #section("Talks")
     #for talk in filtered-content.talks {
-      descript(link(talk.url)[#talk.title])
+      descript(link(talk.url)[*#talk.title*])
       text(style: "italic")[#talk.description]
       v(8pt)
     }
