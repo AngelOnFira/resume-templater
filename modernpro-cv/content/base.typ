@@ -93,7 +93,7 @@
       title: "Frameworks",
       items: (
         (
-          content: "*Django* • *Node.js* • *Flask* • *Ruby on Rails*",
+          content: "Django • Node.js • Flask • Ruby on Rails",
           tags: ("backend"),
         ),
       ),
@@ -102,11 +102,11 @@
       title: "Game Development",
       items: (
         (
-          content: "*Unity* • *Godot* • *Superpowers*",
+          content: "Unity • Godot • Superpowers",
           tags: ("gamedev"),
         ),
         (
-          content: "*OpenCV* • *OpenGL* • *SFML*",
+          content: "OpenCV • OpenGL • SFML",
           tags: ("gamedev"),
         ),
       ),
