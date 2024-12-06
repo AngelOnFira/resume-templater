@@ -2,10 +2,12 @@
   // Helper function to filter arrays based on tags
   let filter-array(arr) = {
     arr.filter(item => {
-      if "tags" in item {
+      if resume-type == "default" {
+        true  // Include everything for default
+      } else if "tags" in item {
         item.tags.contains(resume-type)
       } else {
-        true // Keep items without tags
+        true
       }
     })
   }

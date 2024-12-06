@@ -281,8 +281,8 @@
   continue-header: "false",
   name: "",
   address: "",
-  lastupdated: "true",
-  pagecount: "true",
+  lastupdated: "false",
+  pagecount: "false",
   date: none,
   contacts: (),
   left: "",
@@ -303,24 +303,14 @@
     }
   }
 
-  set page(footer: [
-    #lastupdate(lastupdated, date)
-    #h(1fr)
-    #text(9pt, style: "italic", fill: primary-colour, weight: "light")[#name]
-    #h(1fr)
-    #if pagecount == "true" {
-      text(
-        9pt,
-        style: "italic",
-        fill: primary-colour,
-        weight: "light",
-      )[Page #counter(page).display("1 / 1", both: true)]
-    }
-  ])
+  set page(
+    margin: (left: 1.25cm, right: 1.25cm, top: 1cm, bottom: 1cm),
+    footer: none,
+  )
 
   if continue-header == "true" {
     set page(
-      margin: (left: 1.25cm, right: 1.25cm, top: 2.5cm, bottom: 1.5cm),
+      margin: (left: 1.25cm, right: 1.25cm, top: 2.5cm, bottom: 1cm),
       header: {
         text(
           20pt,

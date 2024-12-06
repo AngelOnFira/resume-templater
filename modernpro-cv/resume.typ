@@ -3,6 +3,20 @@
 #import "content/base.typ": content
 #import "template.typ": filter-content
 
+// Helper function to process bold text
+#let process-bold(text) = {
+  let parts = text.split("*")
+  let result = ()
+  for (i, part) in parts.enumerate() {
+    if calc.even(i) {
+      result = result + (part,)
+    } else {
+      result = result + ([*#part*],)
+    }
+  }
+  result.join("")
+}
+
 // Get resume type from command line argument
 #let resume-type = {
   let resume-type = sys.inputs.resume
@@ -81,11 +95,10 @@
     #for exp in filtered-content.experience {
       job(
         position: link(exp.url)[#exp.title],
-        // institution: link(exp.url)[#exp.title],
         institution: exp.role,
         location: exp.location,
         date: "",
-        description: list(..exp.description),
+        description: list(..exp.description.map(process-bold)),
       )
       v(8pt)
     }
@@ -93,10 +106,10 @@
     #section("Projects")
     #for proj in filtered-content.projects {
       twoline-item(
-        entry1: proj.title,
+        entry1: text(weight: "bold")[#proj.title],
         entry2: proj.date,
         entry3: proj.url,
-        description: list(..proj.description),
+        description: list(..proj.description.map(process-bold)),
       )
       v(8pt)
     }
