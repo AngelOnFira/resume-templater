@@ -1,3 +1,0 @@
-FROM angelonfira/resume-templater
-
-RUN tlmgr install ms substr
