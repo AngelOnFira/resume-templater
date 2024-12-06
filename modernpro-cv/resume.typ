@@ -1,25 +1,40 @@
-#import "@preview/modernpro-cv:1.0.2": *
+#import "modernpro-cv.typ": *
 #import "@preview/fontawesome:0.5.0": *
-#import "content/opensource.typ": content
+#import "content/base.typ": content
+#import "template.typ": filter-content
 
+// Get resume type from command line argument
+#let resume-type = {
+  let resume-type = sys.inputs.resume
+  if resume-type == "" {
+    panic("Please provide a resume type (opensource, backend, gamedev, etc.)")
+  }
+  resume-type
+}
+
+// Set output filename based on resume type
+#set document(title: resume-type + "-resume")
+
+// Filter content based on resume type
+#let filtered-content = filter-content(content, resume-type)
 
 #show: cv-double(
   font-type: "PT Sans",
   continue-header: "true",
-  name: content.name,
+  name: filtered-content.name,
   address: "",
-  lastupdated: "true",
-  pagecount: "true",
+  lastupdated: "false",
+  pagecount: "false",
   date: datetime.today(),
   contacts: (
-    (text: [#fa-icon("link") #content.url], link: content.url),
-    (text: [#fa-icon("envelope") #content.email], link: "mailto:" + content.email),
-    (text: [#fa-icon("mobile") #content.phone], link: "tel:" + content.phone),
+    (text: [#fa-globe() #filtered-content.url], link: filtered-content.url),
+    (text: [#fa-envelope() #filtered-content.email], link: "mailto:" + filtered-content.email),
+    (text: [#fa-phone() #filtered-content.phone], link: "tel:" + filtered-content.phone),
   ),
 
   left: [
     #section("Education")
-    #for edu in content.education {
+    #for edu in filtered-content.education {
       job(
         position: edu.degree,
         institution: edu.school,
@@ -31,14 +46,13 @@
     }
 
     #section("Links")
-    #for l in content.links {
+    #for l in filtered-content.links {
       link(l.url)[#l.text]
       linebreak()
     }
-    v(8pt)
 
     #section("Skills")
-    #for skill in content.skills {
+    #for skill in filtered-content.skills {
       oneline-title-item(
         title: skill.title,
         content: skill.items,
@@ -47,7 +61,7 @@
     }
 
     #section("Volunteer")
-    #for vol in content.volunteer {
+    #for vol in filtered-content.volunteer {
       descript(vol.title)
       text(style: "italic")[#vol.description]
       text(size: 9pt)[#vol.date]
@@ -55,7 +69,7 @@
     }
 
     #section("Talks")
-    #for talk in content.talks {
+    #for talk in filtered-content.talks {
       descript(link(talk.url)[#talk.title])
       text(style: "italic")[#talk.description]
       v(8pt)
@@ -64,10 +78,11 @@
 
   right: [
     #section("Experience")
-    #for exp in content.experience {
+    #for exp in filtered-content.experience {
       job(
-        position: exp.role,
-        institution: link(exp.url)[#exp.title],
+        position: link(exp.url)[#exp.title],
+        // institution: link(exp.url)[#exp.title],
+        institution: exp.role,
         location: exp.location,
         date: "",
         description: list(..exp.description),
@@ -76,7 +91,7 @@
     }
 
     #section("Projects")
-    #for proj in content.projects {
+    #for proj in filtered-content.projects {
       twoline-item(
         entry1: proj.title,
         entry2: proj.date,
@@ -87,7 +102,7 @@
     }
 
     #section("Publications")
-    #for pub in content.publications {
+    #for pub in filtered-content.publications {
       text(weight: "bold")[#pub.title]
       linebreak()
       link(pub.url)[#pub.url]
