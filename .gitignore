@@ -1,3 +1,4 @@
 .vscode/
 template.pdf
 content/base.pdf
+*.DS_Store

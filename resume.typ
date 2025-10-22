@@ -79,14 +79,14 @@
       text(style: "italic")[#vol.description]
       h(1fr)
       text(size: 9pt, style: "italic")[#vol.date]
-      v(8pt)
+      v(1pt)
     }
 
     #section("Talks")
     #for talk in filtered-content.talks {
       descript(link(talk.url)[*#talk.title*])
       text(style: "italic")[#talk.description]
-      v(8pt)
+      v(1pt)
     }
   ],
 
@@ -103,7 +103,9 @@
       v(8pt)
     }
 
+    #if filtered-content.projects.len() > 0 [
     #section("Projects")
+    ]
     #for proj in filtered-content.projects {
       twoline-item(
         entry1: text(weight: "bold")[#link(proj.url)[#proj.title]],

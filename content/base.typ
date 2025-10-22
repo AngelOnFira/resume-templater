@@ -19,10 +19,50 @@
   // Experience section
   experience: (
     (
+      title: "Rustwood Technologies",
+      url: "https://rustwood.org/",
+      role: "Founder",
+      location: "Jan 2025 - Present | Ottawa, ON",
+      full: "",
+      description: (
+        "Developed an interactive presentation platform for classrooms, built with *Rust* and *React*, enabling live student activities and responses",
+        "Deployed and operated the platform in production via *Nomad*, using *Nix* and *devenv* for development",
+        "Prototyped and deployed a wireless light control system using *Rust* firmware on ESP32 devices and Raspberry Pi, forming a synchronized mesh network for music-timed lighting",
+        "Developed a full-stack SaaS for Indigenous community data management, using Loco.rs and React; deployed via Kubernetes + Terraform on DigitalOcean",
+        "Led two contractors (UI/UX design and hardware prototyping), managing tasks in Linear, and overseeing prototype quality and iteration cycles"
+      ),
+      tags: ("backend", "architecture"),
+    ),
+    (
+      title: "Recall.ai",
+      url: "https://www.recall.ai/",
+      role: "Software Engineer",
+      location: "Jan 2025 - Jun 2025 | Remote",
+      full: "",
+      description: (
+        "Migrated Slack meeting bots",
+        "Decreased meeting bot error rate by 90%"
+      ),
+      tags: ("architecture"),
+    ),
+    (
+      title: "Rivet",
+      url: "https://www.rivet.dev/",
+      role: "Founding Engineer",
+      location: "Dec 2023 - Sept 2024 | Remote",
+      full: "",
+      description: (
+        "Developed Godot and Unity plugins to integrate with the Rivet API",
+        "",
+
+      ),
+      tags: ("architecture"),
+    ),
+    (
       title: "Awetza",
       url: "https://www.awetza.ca/",
-      role: "Backend Developer",
-      location: "Nov 2019 – Sept 2024 | Remote",
+      role: "Lead Backend Developer",
+      location: "Nov 2019 – Dec 2024 | Remote",
       full: "I maintained an existing legacy Django application, upgrading it through several versions of Python and Django. I worked with clients to design and implement new features. I migrated antiquated bare-metal servers to a single containerized solution on Kubernetes, and added database backups. I worked on a rewrite of the backend in Rust, and moved the existing client data to a new database schema. I worked with frontend developers to integrate their work with the new backend.",
       description: (
         "Maintained and upgraded legacy *Django* codebase on *Digital Ocean Virtual Machines* through multiple versions of *Python*",
@@ -48,7 +88,7 @@
     (
       title: "Timsle",
       url: "https://timsle.com",
-      role: "Backend Developer",
+      role: "Co-Founder, CTO",
       location: "July 2018 – Apr 2020 | Ottawa, ON",
       full: "I worked with a Django codebase as a backend developer. I wrote pipelines for CI/CD with Jenkins and GitHub Actions. I worked on a rewrite of the backend for a new iteration of the project. I containerized the production web servers, and handled a migration from Heroku to AWS Fargate. I met with clients from Ottawa Public Health, the Ottawa Police Service, and Carleton University to discuss their needs and design new features.",
       description: (
@@ -112,7 +152,7 @@
           tags: ("backend", "architecture"),
         ),
         (
-          content: "GitHub Actions • GitlabCI • Jenkins",
+          content: "GitHub Actions • GitlabCI • Nix",
           tags: ("backend", "opensource"),
         ),
       ),
@@ -121,7 +161,7 @@
       title: "Frameworks",
       items: (
         (
-          content: "Django • Flask",
+          content: "Django • Loco.rs",
           tags: ("backend"),
         ),
       ),
@@ -145,13 +185,13 @@
   volunteer: (
     (
       title: "GitHub Campus Expert",
-      date: "2021 - Present",
+      date: "2021 - 2024",
       description: "Field Day Co-Lead",
       tags: (),
     ),
     (
       title: "RustLang Gamedev Working Group",
-      date: "2020 - Present",
+      date: "2020 - 2024",
       description: "Team Lead",
       tags: (),
     ),
@@ -163,7 +203,7 @@
     ),
     (
       title: "HashiCorp Ambassador",
-      date: "2021 - Present",
+      date: "2021 - 2022",
       description: "Community Ambassador",
       tags: (),
     ),
@@ -181,6 +221,12 @@
       title: "GitHub Universe '22",
       url: "https://www.youtube.com/watch?v=LuiqVZnOaVk",
       description: "Codespaces in Education with David J. Malan",
+      tags: (),
+    ),
+    (
+      title: "HackCon '22",
+      url: "https://www.youtube.com/watch?v=C4ksw3Jvq4E",
+      description: "The Programmer's Brain Workshop",
       tags: (),
     ),
     (
@@ -242,7 +288,7 @@
         "Built with *TypeScript* and integrated with *GitHub Actions API*",
         "Maintained through multiple changes of GitHub Actions with focus on reliability",
       ),
-      tags: ("opensource", "backend"),
+      tags: ("opensource"),
     ),
     (
       title: "Rusty Christmas Tree",
@@ -253,7 +299,7 @@
         "Created in *Rust* with local visualization done using *Nannou*",
         "Includes a *Warp* backend server and a frontend UI made with *Yew*",
       ),
-      tags: ("opensource", "backend"),
+      tags: ("opensource"),
     ),
     (
       title: "Resume Templater",
