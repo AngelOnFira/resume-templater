@@ -25,10 +25,10 @@
       location: "Jan 2025 - Present | Ottawa, ON",
       full: "",
       description: (
-        "Developed an interactive presentation platform for classrooms, built with *Rust* and *React*, enabling live student activities and responses",
-        "Deployed and operated the platform in production via *Nomad*, using *Nix* and *devenv* for development",
+        "Developed an interactive presentation platform, built with *Rust* and *React*, enabling live student activities",
+        // "Deployed and operated the platform in production via *Nomad*, using *Nix* and *devenv* for development",
         "Prototyped and deployed a wireless light control system using *Rust* firmware on ESP32 devices and Raspberry Pi, forming a synchronized mesh network for music-timed lighting",
-        "Developed a full-stack SaaS for Indigenous community data management, using Loco.rs and React; deployed via Kubernetes + Terraform on DigitalOcean",
+        // "Developed a full-stack SaaS for Indigenous community data management, using Loco.rs and React; deployed via Kubernetes + Terraform on DigitalOcean",
         "Led two contractors (UI/UX design and hardware prototyping), managing tasks in Linear, and overseeing prototype quality and iteration cycles"
       ),
       tags: ("backend", "architecture"),
@@ -40,8 +40,11 @@
       location: "Jan 2025 - Jun 2025 | Remote",
       full: "",
       description: (
-        "Migrated Slack meeting bots",
-        "Decreased meeting bot error rate by 90%"
+        "Migrated Slack meeting bots, reducing hundreds of virtual machines to a single one",
+        "Decreased meeting bot error rate by 90% by developing patches for provider SDKs and chromium",
+        "Communicated directly with clients to understand pain points and diagnose issues they were experiencing",
+        "Managed service lifecycle within k8s",
+        ""
       ),
       tags: ("architecture"),
     ),
@@ -53,8 +56,11 @@
       full: "",
       description: (
         "Developed Godot and Unity plugins to integrate with the Rivet API",
-        "",
-
+        "On-call for critical issues",
+        "Added services to k8s",
+        "Database indexes for faster queries",
+        "Designed and implemented dynamic server API surface for clients to deploy game servers their way",
+        "Built a *Vector* log retrieval system with real-time streaming and Clickhouse-backed storage"
       ),
       tags: ("architecture"),
     ),
@@ -88,7 +94,7 @@
     (
       title: "Timsle",
       url: "https://timsle.com",
-      role: "Co-Founder, CTO",
+      role: "Co-Founder",
       location: "July 2018 – Apr 2020 | Ottawa, ON",
       full: "I worked with a Django codebase as a backend developer. I wrote pipelines for CI/CD with Jenkins and GitHub Actions. I worked on a rewrite of the backend for a new iteration of the project. I containerized the production web servers, and handled a migration from Heroku to AWS Fargate. I met with clients from Ottawa Public Health, the Ottawa Police Service, and Carleton University to discuss their needs and design new features.",
       description: (
@@ -121,7 +127,7 @@
         "Deployed the server stack on *AWS Fargate* and set up daily database backups",
         "Set up *CircleCI* for continuous delivery, and *Sentry* for error tracking",
       ),
-      tags: ("architecture"),
+      tags: ("null"),
     ),
   ),
 
