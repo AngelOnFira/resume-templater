@@ -45,7 +45,7 @@
       .map(category => {
         let filtered_items = filter-array(category.items)
           .map(i => process-bold(i.content))  // Process bold text in skills
-          .join(" ")
+          .join(" • ")
         (
           title: category.title,
           items: filtered_items,

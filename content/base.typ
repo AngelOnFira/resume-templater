@@ -8,10 +8,10 @@
   // Education section
   education: (
     (
-      school: "Carleton University",
+      school: "Carleton University, ",
+      location: "Ottawa",
       degree: "BCS in Computer Science",
       specialization: "Honours in Game Development",
-      location: "Ottawa, ON",
       tags: (),
     ),
   ),
@@ -19,32 +19,18 @@
   // Experience section
   experience: (
     (
-      title: "Rustwood Technologies",
-      url: "https://rustwood.org/",
-      role: "Founder",
-      location: "Jan 2025 - Present | Ottawa, ON",
-      full: "",
-      description: (
-        "Developed an interactive presentation platform, built with *Rust* and *React*, enabling live student activities",
-        // "Deployed and operated the platform in production via *Nomad*, using *Nix* and *devenv* for development",
-        "Prototyped and deployed a wireless light control system using *Rust* firmware on ESP32 devices and Raspberry Pi, forming a synchronized mesh network for music-timed lighting",
-        // "Developed a full-stack SaaS for Indigenous community data management, using Loco.rs and React; deployed via Kubernetes + Terraform on DigitalOcean",
-        "Led two contractors (UI/UX design and hardware prototyping), managing tasks in Linear, and overseeing prototype quality and iteration cycles"
-      ),
-      tags: ("backend", "architecture"),
-    ),
-    (
       title: "Recall.ai",
       url: "https://www.recall.ai/",
       role: "Software Engineer",
-      location: "Jan 2025 - Jun 2025 | Remote",
+      location: "Jan 2025 - Jun 2025 | Bay Area, CA / Remote",
       full: "",
       description: (
-        "Migrated Slack meeting bots, reducing hundreds of virtual machines to a single one",
-        "Decreased meeting bot error rate by 90% by developing patches for provider SDKs and chromium",
-        "Communicated directly with clients to understand pain points and diagnose issues they were experiencing",
-        "Managed service lifecycle within k8s",
-        ""
+        "Re-architected meeting bot join flow for a large provider, *reducing compute resource requirements by 99%*",
+        "*Eliminated ~90% of meeting bot crashes* by resolving critical upstream SDK/chromium integration issues",
+        "Managed service lifecycles within *Kubernetes*, and scaled AWS resources to meet service demand",
+        "Collaborated with 5+ key clients to troubleshoot issues, and translate needs into engineering priorities",
+        // "Led improvements to ad-hoc bot capacity management by implementing monitoring and alerting systems and enhancing scaling mechanisms to proactively mitigate customer-impacting failure modes",
+        "Spearheaded improvements to ad-hoc bot capacity management by implementing real-time monitoring systems, reducing customer-impacting failures by 80% and improving system stability under heavy load",
       ),
       tags: ("architecture"),
     ),
@@ -52,15 +38,14 @@
       title: "Rivet",
       url: "https://www.rivet.dev/",
       role: "Founding Engineer",
-      location: "Dec 2023 - Sept 2024 | Remote",
+      location: "Dec 2023 - Sept 2024 | Bay Area, CA / Remote",
       full: "",
       description: (
-        "Developed Godot and Unity plugins to integrate with the Rivet API",
-        "On-call for critical issues",
-        "Added services to k8s",
-        "Database indexes for faster queries",
-        "Designed and implemented dynamic server API surface for clients to deploy game servers their way",
-        "Built a *Vector* log retrieval system with real-time streaming and Clickhouse-backed storage"
+        "Developed *Godot & Unity* plugins for Rivet API integration, onboarding docs, and runnable examples",
+        "Owned Dynamic Servers implementation across contracts, backend logic, and developer SDKs",
+        "Implemented server log retrieval with *Vector* pipelines, *ClickHouse* storage, and live streaming APIs",
+        // "Built a *Vector* log retrieval system with real-time streaming and Clickhouse-backed storage",
+        // "Added devcontainer support to allow for a one-click open source developer experience"
       ),
       tags: ("architecture"),
     ),
@@ -68,12 +53,27 @@
       title: "Awetza",
       url: "https://www.awetza.ca/",
       role: "Lead Backend Developer",
-      location: "Nov 2019 – Dec 2024 | Remote",
+      location: "Nov 2019 – Dec 2024 | Alberta / Remote",
       full: "I maintained an existing legacy Django application, upgrading it through several versions of Python and Django. I worked with clients to design and implement new features. I migrated antiquated bare-metal servers to a single containerized solution on Kubernetes, and added database backups. I worked on a rewrite of the backend in Rust, and moved the existing client data to a new database schema. I worked with frontend developers to integrate their work with the new backend.",
       description: (
-        "Maintained and upgraded legacy *Django* codebase on *Digital Ocean Virtual Machines* through multiple versions of *Python*",
-        "Migrated bare-metal servers to a *Docker* solution in *Kubernetes*",
-        "Architected and implemented backend rewrite in *Rust* with new database schema and modern practices",
+        "Migrated bare-metal servers to a *Docker* containers in *Kubernetes*, reducing compute requirements by 5x",
+        "Maintained and upgraded legacy *Django* codebase, adding new features and fixing bugs",
+        "Architected and implemented backend service rewrite in *Rust* to address new customer needs",
+      ),
+      tags: ("backend", "architecture"),
+    ),
+    (
+      title: "Rustwood Technologies",
+      url: "https://rustwood.org/",
+      role: "Founder",
+      location: "Jan 2025 - Present | Ottawa, ON / Remote",
+      full: "",
+      description: (
+        "Built an interactive classroom presentation platform in *Rust and React*, enabling real-time student participation and activity tracking for instructors, and demoed to student groups at a local university",
+        // "Deployed and operated the platform in production via *Nomad*, using *Nix* and *devenv* for development",
+        "Architected and deployed a distributed ESP32 lighting system in embedded Rust, leading contractor-designed PCB and enclosure development and coordinating hardware assembly for a live light show",
+        // "Developed a full-stack SaaS for Indigenous community data management, using Loco.rs and React; deployed via Kubernetes + Terraform on DigitalOcean",
+        // "Directed UI/UX and hardware prototyping contractors, managing roadmap execution and prototype quality"
       ),
       tags: ("backend", "architecture"),
     ),
@@ -98,10 +98,10 @@
       location: "July 2018 – Apr 2020 | Ottawa, ON",
       full: "I worked with a Django codebase as a backend developer. I wrote pipelines for CI/CD with Jenkins and GitHub Actions. I worked on a rewrite of the backend for a new iteration of the project. I containerized the production web servers, and handled a migration from Heroku to AWS Fargate. I met with clients from Ottawa Public Health, the Ottawa Police Service, and Carleton University to discuss their needs and design new features.",
       description: (
-        "Developed and maintained *Django* backend with focus on scalability and performance",
-        "Implemented CI/CD pipelines using *Jenkins* and *GitHub Actions*",
-        "Orchestrated migration from *Heroku* to *AWS Fargate* with containerized architecture",
-        "Collaborated with the City of Ottawa and Carleton University to gather requirements and design new features",
+        "Led backend development in *Django*, supporting feature evolution across 4 public-sector clients",
+        "Built CI/CD pipelines (*Jenkins, GitHub Actions*) automating testing and production deployments",
+        "Re-architected production infrastructure by containerizing services and migrating from *Heroku to AWS*",
+        "Met directly with public-sector partners to gather requirements and translate needs into product features",
       ),
       tags: ("backend", "architecture"),
     ),
@@ -134,11 +134,11 @@
   // Skills section
   skills: (
     (
-      title: "Languages",
+      title: "Development Skills",
       items: (
         (
-          content: "Rust • Python",
-          tags: ("backend", "opensource"),
+          content: "Rust • Python • Django • AWS • Digital Ocean",
+          tags: ("backend", "opensource", "architecture"),
         ),
         (
           content: "C++ • C# • GDScript",
@@ -147,15 +147,24 @@
       ),
     ),
     (
+      title: "Deployment Techniques",
+      items: (
+        (
+          content: "CI/CD (GitHub Actions), Infrastructure as Code (Terraform), Containerization (Docker), Orchestration (Kubernetes, Nomad)",
+          tags: ("architecture"),
+        ),
+      ),
+    ),
+    (
       title: "Technologies",
       items: (
         (
           content: "Docker • Kubernetes",
-          tags: ("backend", "architecture"),
+          tags: ("backend"),
         ),
         (
           content: "AWS • Digital Ocean • Hetzner",
-          tags: ("backend", "architecture"),
+          tags: ("backend"),
         ),
         (
           content: "GitHub Actions • GitlabCI • Nix",
@@ -167,7 +176,7 @@
       title: "Frameworks",
       items: (
         (
-          content: "Django • Loco.rs",
+          content: "Django • Axum",
           tags: ("backend"),
         ),
       ),
@@ -231,7 +240,7 @@
     ),
     (
       title: "HackCon '22",
-      url: "https://www.youtube.com/watch?v=C4ksw3Jvq4E",
+      url: "",
       description: "The Programmer's Brain Workshop",
       tags: (),
     ),

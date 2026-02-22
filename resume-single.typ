@@ -72,23 +72,51 @@
       v(8pt)
     }
 
-    #section("Education")
-    #for edu in filtered-content.education {
-      descript(edu.degree)
-      linebreak()
-      text(style: "italic")[#edu.school]
-      linebreak()
-      text(style: "italic")[#edu.specialization]
-      v(8pt)
-    }
+    #grid(
+      columns: (0.39fr, 1fr),
+      column-gutter: 2em,
+      [
+        #section("Education")
+        #for edu in filtered-content.education {
+          text(weight: "bold")[#edu.school]
+          text[#edu.location]
+          linebreak()
+          text[#edu.degree]
+          linebreak()
+          text(style: "italic")[#edu.specialization]
+          v(8pt)
+        }
+      ],
+      [
+        #section("Skills")
+        #for skill in filtered-content.skills {
+          oneline-title-item(
+            title: skill.title,
+            content: skill.items,
+          )
+        }
+      ],
+    )
 
-    #section("Skills")
-    #for skill in filtered-content.skills {
-      oneline-title-item(
-        title: skill.title,
-        content: skill.items,
-      )
-      v(8pt)
-    }
+    #if filtered-content.talks.len() > 0 [
+      #section("Talks")
+      #text(10pt)[#{
+        let items = filtered-content.talks.map(talk => {
+          let title = if talk.url != "" { link(talk.url)[*#talk.title*] } else [*#talk.title*]
+          [#title --- #talk.description]
+        })
+        let lines = ()
+        let i = 0
+        while i < items.len() {
+          if i + 1 < items.len() {
+            lines.push([#items.at(i) | #items.at(i + 1)])
+          } else {
+            lines.push(items.at(i))
+          }
+          i = i + 2
+        }
+        lines.join(linebreak())
+      }]
+    ]
   ],
 )
