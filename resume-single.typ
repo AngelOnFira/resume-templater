@@ -72,31 +72,20 @@
       v(8pt)
     }
 
-    #grid(
-      columns: (0.39fr, 1fr),
-      column-gutter: 2em,
-      [
-        #section("Education")
-        #for edu in filtered-content.education {
-          text(weight: "bold")[#edu.school]
-          text[#edu.location]
-          linebreak()
-          text[#edu.degree]
-          linebreak()
-          text(style: "italic")[#edu.specialization]
-          v(8pt)
-        }
-      ],
-      [
-        #section("Skills")
-        #for skill in filtered-content.skills {
-          oneline-title-item(
-            title: skill.title,
-            content: skill.items,
-          )
-        }
-      ],
-    )
+    #section("Education")
+    #for edu in filtered-content.education {
+      text[*Carleton University*, Ottawa --- ]
+      text(style: "italic")[BCS in Computer Science; Honours in Game Development]
+      v(8pt)
+    }
+
+    #section("Skills")
+    #for skill in filtered-content.skills {
+      oneline-title-item(
+        title: skill.title,
+        content: skill.items,
+      )
+    }
 
     #if filtered-content.talks.len() > 0 [
       #section("Talks")

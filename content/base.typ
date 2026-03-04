@@ -8,7 +8,7 @@
   // Education section
   education: (
     (
-      school: "Carleton University, ",
+      school: "Carleton University",
       location: "Ottawa",
       degree: "BCS in Computer Science",
       specialization: "Honours in Game Development",
@@ -30,9 +30,24 @@
         "Managed service lifecycles within *Kubernetes*, and scaled AWS resources to meet service demand",
         "Collaborated with 5+ key clients to troubleshoot issues, and translate needs into engineering priorities",
         // "Led improvements to ad-hoc bot capacity management by implementing monitoring and alerting systems and enhancing scaling mechanisms to proactively mitigate customer-impacting failure modes",
-        "Spearheaded improvements to ad-hoc bot capacity management by implementing real-time monitoring systems, reducing customer-impacting failures by 80% and improving system stability under heavy load",
+        "Spearheaded improvements to ad-hoc bot capacity management by implementing real-time monitoring systems, *reducing customer-impacting failures by 80%* and improving system stability under heavy load",
       ),
       tags: ("architecture"),
+    ),
+    (
+      title: "Rustwood Technologies",
+      url: "https://rustwood.org/",
+      role: "Founder",
+      location: "Jan 2025 - Present | Ottawa, ON / Remote",
+      full: "",
+      description: (
+        "Built an interactive classroom presentation platform in *Rust and React*, enabling real-time student participation and activity tracking for instructors, and demoed to student groups at a local university",
+        // "Deployed and operated the platform in production via *Nomad*, using *Nix* and *devenv* for development",
+        "Architected and deployed a distributed ESP32 lighting system in embedded Rust, leading contractor-designed PCB and enclosure development and coordinating hardware assembly for a live light show",
+        // "Developed a full-stack SaaS for Indigenous community data management, using Loco.rs and React; deployed via Kubernetes + Terraform on DigitalOcean",
+        // "Directed UI/UX and hardware prototyping contractors, managing roadmap execution and prototype quality"
+      ),
+      tags: ("backend", "architecture"),
     ),
     (
       title: "Rivet",
@@ -42,7 +57,8 @@
       full: "",
       description: (
         "Developed *Godot & Unity* plugins for Rivet API integration, onboarding docs, and runnable examples",
-        "Owned Dynamic Servers implementation across contracts, backend logic, and developer SDKs",
+        "Managed and deployed services in *Terraform* to deploy across enterprise and open source clusters",
+        // "Owned Dynamic Servers implementation across contracts, backend logic, and developer SDKs",
         "Implemented server log retrieval with *Vector* pipelines, *ClickHouse* storage, and live streaming APIs",
         // "Built a *Vector* log retrieval system with real-time streaming and Clickhouse-backed storage",
         // "Added devcontainer support to allow for a one-click open source developer experience"
@@ -59,21 +75,6 @@
         "Migrated bare-metal servers to a *Docker* containers in *Kubernetes*, reducing compute requirements by 5x",
         "Maintained and upgraded legacy *Django* codebase, adding new features and fixing bugs",
         "Architected and implemented backend service rewrite in *Rust* to address new customer needs",
-      ),
-      tags: ("backend", "architecture"),
-    ),
-    (
-      title: "Rustwood Technologies",
-      url: "https://rustwood.org/",
-      role: "Founder",
-      location: "Jan 2025 - Present | Ottawa, ON / Remote",
-      full: "",
-      description: (
-        "Built an interactive classroom presentation platform in *Rust and React*, enabling real-time student participation and activity tracking for instructors, and demoed to student groups at a local university",
-        // "Deployed and operated the platform in production via *Nomad*, using *Nix* and *devenv* for development",
-        "Architected and deployed a distributed ESP32 lighting system in embedded Rust, leading contractor-designed PCB and enclosure development and coordinating hardware assembly for a live light show",
-        // "Developed a full-stack SaaS for Indigenous community data management, using Loco.rs and React; deployed via Kubernetes + Terraform on DigitalOcean",
-        // "Directed UI/UX and hardware prototyping contractors, managing roadmap execution and prototype quality"
       ),
       tags: ("backend", "architecture"),
     ),
@@ -95,7 +96,7 @@
       title: "Timsle",
       url: "https://timsle.com",
       role: "Co-Founder",
-      location: "July 2018 – Apr 2020 | Ottawa, ON",
+      location: "Jul 2018 – Apr 2020 | Ottawa, ON",
       full: "I worked with a Django codebase as a backend developer. I wrote pipelines for CI/CD with Jenkins and GitHub Actions. I worked on a rewrite of the backend for a new iteration of the project. I containerized the production web servers, and handled a migration from Heroku to AWS Fargate. I met with clients from Ottawa Public Health, the Ottawa Police Service, and Carleton University to discuss their needs and design new features.",
       description: (
         "Led backend development in *Django*, supporting feature evolution across 4 public-sector clients",
@@ -150,7 +151,7 @@
       title: "Deployment Techniques",
       items: (
         (
-          content: "CI/CD (GitHub Actions), Infrastructure as Code (Terraform), Containerization (Docker), Orchestration (Kubernetes, Nomad)",
+          content: "Docker, Kubernetes, Nomad, Terraform, GitHub Actions, Nix",
           tags: ("architecture"),
         ),
       ),
