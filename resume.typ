@@ -1,6 +1,6 @@
 #import "modernpro-cv.typ": *
 #import "@preview/fontawesome:0.5.0": *
-#import "content/base.typ": content
+#import sys.inputs.at("content", default: "content/base.typ"): content
 #import "template.typ": filter-content
 
 // Helper function to process bold text
