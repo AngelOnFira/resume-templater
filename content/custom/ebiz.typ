@@ -79,10 +79,10 @@
         // "Mentored and managed a contract developer through *code reviews* and pair programming, fostering engineering best practices and supporting their growth across the codebase",
         // "Met directly with clients to gather requirements and translate business needs into technical designs, then delivered full-stack feature slices end-to-end with *Angular* and *Django*",
         "Migrated bare-metal *Virtual Machines* to *Docker* containers orchestrated with *Kubernetes*, reducing compute requirements by 5x and improving deployment consistency",
-        "Maintained and upgraded a legacy *Django* application across multiple Python and Django",
-        // "Architected and implemented a new *Rust* backend service, including migration of existing client data to a redesigned database schema",
-        "Met directly with clients to gather requirements, translate business needs into technical designs, and deliver full-stack features in collaboration with *Angular* and *Django* developers",
-        "Mentored and managed a contract developer through code reviews and pair programming, improving code quality and supporting onboarding across the codebase",
+        // "Maintained and upgraded a legacy *Django* application across multiple Python and Django",
+        "Met directly with clients to gather requirements and developed full-stack features with *Angular* and *Django*",
+        "Managed a contract developer within an agile workflow through code reviews and sprint planning",
+        "Prototyped and implemented a new *Rust* backend service, including migration of existing client data to a redesigned *PostgreSQL* database schema",
       ),
       tags: ("backend", "architecture"),
     ),
@@ -150,7 +150,7 @@
           tags: ("backend", "opensource", "architecture"),
         ),
         (
-          content: "OOP • MVC • RESTful APIs • Microservices",
+          content: "OOP • MVC • RESTful APIs",
           tags: ("backend", "architecture"),
         ),
         (
